@@ -1,0 +1,46 @@
+/*---------------------------------------------------------
+---- TEXT COLOR  
+---------------------------------------------------------*/
+
+/// Applies none color and background color
+.t0, .textNone, .text-none {
+  color: none;
+  background-color: none;
+}
+
+/// Applies primary color and background color
+.t1, .textPrimary, .text-primary {
+  color: var(--c1);
+  background-color: var(--bg1);
+}
+
+/// Applies secondary color and background color
+.t2, .textSecondary, .text-secondary {
+  color: var(--c2);
+  background-color: var(--bg2);
+}
+
+/// Applies light color and background color
+.t3, .textLight, .text-light {
+  color: var(--c3);
+  background-color: var(--bg3);
+}
+
+/// Applies dark color and background color
+.t4, .textDark, .text-dark {
+  color: var(--c4);
+  background-color: var(--bg4);
+}
+
+/// Applies extra highlight color and background color to get attention, 
+/// such as highlighting a buy button
+.t5, .textEmphasis, .text-emphasis {
+  color: var(--c5);
+  background-color: var(--bg5);
+}
+
+/// Applies initial (or default) color and background color
+.tIni, .textInitial, .bg-initial {
+  color: initial;
+  background-color: initial;
+}

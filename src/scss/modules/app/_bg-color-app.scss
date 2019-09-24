@@ -1,0 +1,40 @@
+/*---------------------------------------------------------
+---- BG COLOR APP
+---------------------------------------------------------*/
+
+/// Applies none background color
+.bg0, .bgNone, .bg-none {
+  background-color: none;
+}
+
+/// Applies primary background color
+.bg1, .bgPrimary, .bg-primary {
+  background-color: var(--bg1);
+}
+
+/// Applies secondary background color
+.bg2, .bgSecondary, .bg-secondary {
+  background-color: var(--bg2);
+}
+
+/// Applies light background color
+.bg3, .bgLight, .bg-light {
+  background-color: var(--bg3);
+}
+
+/// Applies dark background color
+.bg4, .bgDark, .bg-dark {
+  background-color: var(--bg4);
+}
+
+/// Applies extra highlight background color to get attention, 
+/// such as highlighting a buy button
+.bg5, .bgEmphasis, .bg-emphasis {
+  background-color: var(--bg5);
+}
+
+/// Applies initial (or default) background color
+.bgIni, .bgInitial, .bg-initial {
+  background-color: initial;
+}
+

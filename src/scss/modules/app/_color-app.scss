@@ -1,0 +1,40 @@
+/*---------------------------------------------------------
+---- COLOR APP
+---------------------------------------------------------*/
+
+/// Applies none color
+.c0, .cNone, .color-none {
+  color: none;
+}
+
+/// Applies primary color
+.c1, .cPrimary, .color-primary {
+  color: var(--c1);
+}
+
+/// Applies secondary color
+.c2, .cSecondary, .color-secondary {
+  color: var(--c2);
+}
+
+/// Applies light color
+.c3, .cLight, .color-light {
+  color: var(--c3);
+}
+
+/// Applies dark color
+.c4, .cDark, .color-dark {
+  color: var(--c4);
+}
+
+/// Applies extra highlight color to get attention, 
+/// such as highlighting a buy button
+.c5, .cEmphasis, .color-emphasis {
+  color: var(--c5);
+}
+
+/// Applies initial (or default) color
+.cIni, .cInitial, .color-initial {
+  color: initial;
+}
+
