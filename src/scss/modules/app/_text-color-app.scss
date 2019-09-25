@@ -3,44 +3,44 @@
 ---------------------------------------------------------*/
 
 /// Applies none color and background color
-.t0, .textNone, .text-none {
+.t0, .tNone, .textNone, .text-none {
   color: none;
   background-color: none;
 }
 
 /// Applies primary color and background color
-.t1, .textPrimary, .text-primary {
+.t1, .tPrimary, .textPrimary, .text-primary {
   color: var(--color-primary);
   background-color: var(--bg-primary);
 }
 
 /// Applies secondary color and background color
-.t2, .textSecondary, .text-secondary {
+.t2, .tSecondary, .textSecondary, .text-secondary {
   color: var(--color-secondary);
   background-color: var(--bg-secondary);
 }
 
 /// Applies light color and background color
-.t3, .textLight, .text-light {
+.t3, .tLight, .textLight, .text-light {
   color: var(--color-light);
   background-color: var(--bg-light);
 }
 
 /// Applies dark color and background color
-.t4, .textDark, .text-dark {
+.t4, .tDark, .textDark, .text-dark {
   color: var(--color-dark);
   background-color: var(--bg-dark);
 }
 
 /// Applies extra highlight color and background color to get attention, 
 /// such as highlighting a buy button
-.t5, .textEmphasis, .text-emphasis {
+.t5, .tEmphasis, .textEmphasis, .text-emphasis {
   color: var(--color-emphasis);
   background-color: var(--bg-emphasis);
 }
 
 /// Applies initial (or default) color and background color
-.tIni, .textInitial, .text-initial {
+.tIni, .tInitial, .textInitial, .text-initial {
   color: initial;
   background-color: initial;
 }

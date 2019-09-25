@@ -3,38 +3,38 @@
 ---------------------------------------------------------*/
 
 /// Applies none color
-.c0, .cNone, .color-none {
+.c0, .cNone, .colorNone, .color-none {
   color: none;
 }
 
 /// Applies primary color
-.c1, .cPrimary, .color-primary {
+.c1, .cPrimary, .colorPrimary, .color-primary {
   color: var(--color-primary);
 }
 
 /// Applies secondary color
-.c2, .cSecondary, .color-secondary {
+.c2, .cSecondary, .colorSecondary, .color-secondary {
   color: var(--color-secondary);
 }
 
 /// Applies light color
-.c3, .cLight, .color-light {
+.c3, .cLight, .colorLight, .color-light {
   color: var(--color-light);
 }
 
 /// Applies dark color
-.c4, .cDark, .color-dark {
+.c4, .cDark, .colorDark, .color-dark {
   color: var(--color-dark);
 }
 
 /// Applies extra highlight color to get attention, 
 /// such as highlighting a buy button
-.c5, .cEmphasis, .color-emphasis {
+.c5, .cEmphasis, .colorEmphasis, .color-emphasis {
   color: var(--color-emphasis);
 }
 
 /// Applies initial (or default) color
-.cIni, .cInitial, .color-initial {
+.cIni, .cInitial, .colorInitial, .color-initial {
   color: initial;
 }
 
