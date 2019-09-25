@@ -20,14 +20,9 @@
   -----------------------------------*/
   --color-primary: brown;
   --color-secondary: red;
-  --color-light: gray;
-  --color-dark: gray;
+  --color-light: dimgray;
+  --color-dark: white;
   --color-emphasis: black;
-  --c1: var(--color-primary);
-  --c2: var(--color-secondary);
-  --c3: var(--color-light);
-  --c4: var(--color-dark);
-  --c5: var(--color-emphasis);
   /*-----------------------------------
   ---- BACKGROUND COLOR VARS  
   -----------------------------------*/
@@ -35,12 +30,7 @@
   --bg-secondary: yellow;
   --bg-light: white;
   --bg-dark: black;
-  --bg-emphasis: orange;
-  --bg1: var(--bg-primary);
-  --bg2: var(--bg-secondary);
-  --bg3: var(--bg-light);
-  --bg4: var(--bg-dark);
-  --bg5: var(--bg-emphasis); }
+  --bg-emphasis: orange; }
 
 /*---------------------------------------------------------
 ---- COLOR APP
@@ -49,19 +39,19 @@
   color: none; }
 
 .c1, .cPrimary, .color-primary {
-  color: var(--c1); }
+  color: var(--color-primary); }
 
 .c2, .cSecondary, .color-secondary {
-  color: var(--c2); }
+  color: var(--color-secondary); }
 
 .c3, .cLight, .color-light {
-  color: var(--c3); }
+  color: var(--color-light); }
 
 .c4, .cDark, .color-dark {
-  color: var(--c4); }
+  color: var(--color-dark); }
 
 .c5, .cEmphasis, .color-emphasis {
-  color: var(--c5); }
+  color: var(--color-emphasis); }
 
 .cIni, .cInitial, .color-initial {
   color: initial; }
@@ -73,19 +63,19 @@
   background-color: none; }
 
 .bg1, .bgPrimary, .bg-primary {
-  background-color: var(--bg1); }
+  background-color: var(--bg-primary); }
 
 .bg2, .bgSecondary, .bg-secondary {
-  background-color: var(--bg2); }
+  background-color: var(--bg-secondary); }
 
 .bg3, .bgLight, .bg-light {
-  background-color: var(--bg3); }
+  background-color: var(--bg-light); }
 
 .bg4, .bgDark, .bg-dark {
-  background-color: var(--bg4); }
+  background-color: var(--bg-dark); }
 
 .bg5, .bgEmphasis, .bg-emphasis {
-  background-color: var(--bg5); }
+  background-color: var(--bg-emphasis); }
 
 .bgIni, .bgInitial, .bg-initial {
   background-color: initial; }
@@ -98,24 +88,24 @@
   background-color: none; }
 
 .t1, .textPrimary, .text-primary {
-  color: var(--c1);
-  background-color: var(--bg1); }
+  color: var(--color-primary);
+  background-color: var(--bg-primary); }
 
 .t2, .textSecondary, .text-secondary {
-  color: var(--c2);
-  background-color: var(--bg2); }
+  color: var(--color-secondary);
+  background-color: var(--bg-secondary); }
 
 .t3, .textLight, .text-light {
-  color: var(--c3);
-  background-color: var(--bg3); }
+  color: var(--color-light);
+  background-color: var(--bg-light); }
 
 .t4, .textDark, .text-dark {
-  color: var(--c4);
-  background-color: var(--bg4); }
+  color: var(--color-dark);
+  background-color: var(--bg-dark); }
 
 .t5, .textEmphasis, .text-emphasis {
-  color: var(--c5);
-  background-color: var(--bg5); }
+  color: var(--color-emphasis);
+  background-color: var(--bg-emphasis); }
 
 .tIni, .textInitial, .bg-initial {
   color: initial;

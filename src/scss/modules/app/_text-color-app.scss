@@ -10,33 +10,33 @@
 
 /// Applies primary color and background color
 .t1, .textPrimary, .text-primary {
-  color: var(--c1);
-  background-color: var(--bg1);
+  color: var(--color-primary);
+  background-color: var(--bg-primary);
 }
 
 /// Applies secondary color and background color
 .t2, .textSecondary, .text-secondary {
-  color: var(--c2);
-  background-color: var(--bg2);
+  color: var(--color-secondary);
+  background-color: var(--bg-secondary);
 }
 
 /// Applies light color and background color
 .t3, .textLight, .text-light {
-  color: var(--c3);
-  background-color: var(--bg3);
+  color: var(--color-light);
+  background-color: var(--bg-light);
 }
 
 /// Applies dark color and background color
 .t4, .textDark, .text-dark {
-  color: var(--c4);
-  background-color: var(--bg4);
+  color: var(--color-dark);
+  background-color: var(--bg-dark);
 }
 
 /// Applies extra highlight color and background color to get attention, 
 /// such as highlighting a buy button
 .t5, .textEmphasis, .text-emphasis {
-  color: var(--c5);
-  background-color: var(--bg5);
+  color: var(--color-emphasis);
+  background-color: var(--bg-emphasis);
 }
 
 /// Applies initial (or default) color and background color

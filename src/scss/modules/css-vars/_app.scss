@@ -6,16 +6,9 @@
   
   --color-primary: brown;
   --color-secondary: red;
-  --color-light: gray;
-  --color-dark: gray;
+  --color-light: dimgray;
+  --color-dark: white;
   --color-emphasis: black;
-
-  --c1: var(--color-primary);
-  --c2: var(--color-secondary);
-  --c3: var(--color-light);
-  --c4: var(--color-dark);
-  --c5: var(--color-emphasis);
-
 
 
   /*-----------------------------------
@@ -27,11 +20,5 @@
   --bg-light: white;
   --bg-dark: black;
   --bg-emphasis: orange;
-
-  --bg1: var(--bg-primary);
-  --bg2: var(--bg-secondary);
-  --bg3: var(--bg-light);
-  --bg4: var(--bg-dark);
-  --bg5: var(--bg-emphasis);
 
 }
