@@ -1,0 +1,16 @@
+/*!
+ * Copyright 2019 Fabio Nas [website](https://www.fabionas.com.br)
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */:root{--color-primary: brown;--color-secondary: red;--color-light: gray;--color-dark: gray;--color-emphasis: black;--c1: var(--color-primary);--c2: var(--color-secondary);--c3: var(--color-light);--c4: var(--color-dark);--c5: var(--color-emphasis);--bg-primary: yellow;--bg-secondary: yellow;--bg-light: white;--bg-dark: black;--bg-emphasis: orange;--bg1: var(--bg-primary);--bg2: var(--bg-secondary);--bg3: var(--bg-light);--bg4: var(--bg-dark);--bg5: var(--bg-emphasis)}.c0,.cNone,.color-none{color:none}.c1,.cPrimary,.color-primary{color:var(--c1)}.c2,.cSecondary,.color-secondary{color:var(--c2)}.c3,.cLight,.color-light{color:var(--c3)}.c4,.cDark,.color-dark{color:var(--c4)}.c5,.cEmphasis,.color-emphasis{color:var(--c5)}.cIni,.cInitial,.color-initial{color:initial}.bg0,.bgNone,.bg-none{background-color:none}.bg1,.bgPrimary,.bg-primary{background-color:var(--bg1)}.bg2,.bgSecondary,.bg-secondary{background-color:var(--bg2)}.bg3,.bgLight,.bg-light{background-color:var(--bg3)}.bg4,.bgDark,.bg-dark{background-color:var(--bg4)}.bg5,.bgEmphasis,.bg-emphasis{background-color:var(--bg5)}.bgIni,.bgInitial,.bg-initial{background-color:initial}.t0,.textNone,.text-none{color:none;background-color:none}.t1,.textPrimary,.text-primary{color:var(--c1);background-color:var(--bg1)}.t2,.textSecondary,.text-secondary{color:var(--c2);background-color:var(--bg2)}.t3,.textLight,.text-light{color:var(--c3);background-color:var(--bg3)}.t4,.textDark,.text-dark{color:var(--c4);background-color:var(--bg4)}.t5,.textEmphasis,.text-emphasis{color:var(--c5);background-color:var(--bg5)}.tIni,.textInitial,.bg-initial{color:initial;background-color:initial}
