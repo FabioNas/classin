@@ -9,28 +9,28 @@
 
 /// Applies primary background color
 .bg1, .bgPrimary, .bg-primary {
-  background-color: var(--bg-primary);
+  background-color: var(--bgPrimary);
 }
 
 /// Applies secondary background color
 .bg2, .bgSecondary, .bg-secondary {
-  background-color: var(--bg-secondary);
+  background-color: var(--bgSecondary);
 }
 
 /// Applies light background color
 .bg3, .bgLight, .bg-light {
-  background-color: var(--bg-light);
+  background-color: var(--bgLight);
 }
 
 /// Applies dark background color
 .bg4, .bgDark, .bg-dark {
-  background-color: var(--bg-dark);
+  background-color: var(--bgDark);
 }
 
 /// Applies extra highlight background color to get attention, 
 /// such as highlighting a buy button
 .bg5, .bgEmphasis, .bg-emphasis {
-  background-color: var(--bg-emphasis);
+  background-color: var(--bgEmphasis);
 }
 
 /// Applies initial (or default) background color

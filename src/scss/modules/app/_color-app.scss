@@ -9,28 +9,28 @@
 
 /// Applies primary color
 .c1, .cPrimary, .colorPrimary, .color-primary {
-  color: var(--color-primary);
+  color: var(--cPrimary);
 }
 
 /// Applies secondary color
 .c2, .cSecondary, .colorSecondary, .color-secondary {
-  color: var(--color-secondary);
+  color: var(--cSecondary);
 }
 
 /// Applies light color
 .c3, .cLight, .colorLight, .color-light {
-  color: var(--color-light);
+  color: var(--cLight);
 }
 
 /// Applies dark color
 .c4, .cDark, .colorDark, .color-dark {
-  color: var(--color-dark);
+  color: var(--cDark);
 }
 
 /// Applies extra highlight color to get attention, 
 /// such as highlighting a buy button
 .c5, .cEmphasis, .colorEmphasis, .color-emphasis {
-  color: var(--color-emphasis);
+  color: var(--cEmphasis);
 }
 
 /// Applies initial (or default) color

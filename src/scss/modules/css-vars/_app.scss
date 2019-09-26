@@ -4,21 +4,39 @@
   ---- COLLOR VARS  
   -----------------------------------*/
   
-  --color-primary: brown;
-  --color-secondary: red;
-  --color-light: dimgray;
-  --color-dark: white;
-  --color-emphasis: black;
+  /// Primary color
+  --cPrimary: brown;
+
+  /// Secondary color
+  --cSecondary: red;
+
+  /// Light color
+  --cLight: dimgray;
+
+  /// Dark color
+  --cDark: white;
+
+  /// Emphasis color
+  --cEmphasis: black;
 
 
   /*-----------------------------------
   ---- BACKGROUND COLOR VARS  
   -----------------------------------*/
   
-  --bg-primary: yellow;
-  --bg-secondary: yellow;
-  --bg-light: white;
-  --bg-dark: black;
-  --bg-emphasis: orange;
+  /// Primary background color
+  --bgPrimary: yellow;
+
+  /// Secondary background color
+  --bgSecondary: yellow;
+
+  /// Light background color
+  --bgLight: white;
+
+  /// Dark background color
+  --bgDark: black;
+
+  /// Emphasis background color
+  --bgEmphasis: orange;
 
 }
