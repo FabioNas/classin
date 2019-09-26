@@ -18,42 +18,42 @@
   /*-----------------------------------
   ---- COLLOR VARS  
   -----------------------------------*/
-  --color-primary: brown;
-  --color-secondary: red;
-  --color-light: dimgray;
-  --color-dark: white;
-  --color-emphasis: black;
+  --cPrimary: brown;
+  --cSecondary: red;
+  --cLight: dimgray;
+  --cDark: white;
+  --cEmphasis: black;
   /*-----------------------------------
   ---- BACKGROUND COLOR VARS  
   -----------------------------------*/
-  --bg-primary: yellow;
-  --bg-secondary: yellow;
-  --bg-light: white;
-  --bg-dark: black;
-  --bg-emphasis: orange; }
+  --bgPrimary: yellow;
+  --bgSecondary: yellow;
+  --bgLight: white;
+  --bgDark: black;
+  --bgEmphasis: orange; }
 
 /*---------------------------------------------------------
 ---- COLOR APP
 ---------------------------------------------------------*/
-.c0, .cNone, .color-none {
+.c0, .cNone, .colorNone, .color-none {
   color: none; }
 
-.c1, .cPrimary, .color-primary {
-  color: var(--color-primary); }
+.c1, .cPrimary, .colorPrimary, .color-primary {
+  color: var(--cPrimary); }
 
-.c2, .cSecondary, .color-secondary {
-  color: var(--color-secondary); }
+.c2, .cSecondary, .colorSecondary, .color-secondary {
+  color: var(--cSecondary); }
 
-.c3, .cLight, .color-light {
-  color: var(--color-light); }
+.c3, .cLight, .colorLight, .color-light {
+  color: var(--cLight); }
 
-.c4, .cDark, .color-dark {
-  color: var(--color-dark); }
+.c4, .cDark, .colorDark, .color-dark {
+  color: var(--cDark); }
 
-.c5, .cEmphasis, .color-emphasis {
-  color: var(--color-emphasis); }
+.c5, .cEmphasis, .colorEmphasis, .color-emphasis {
+  color: var(--cEmphasis); }
 
-.cIni, .cInitial, .color-initial {
+.cIni, .cInitial, .colorInitial, .color-initial {
   color: initial; }
 
 /*---------------------------------------------------------
@@ -63,19 +63,19 @@
   background-color: none; }
 
 .bg1, .bgPrimary, .bg-primary {
-  background-color: var(--bg-primary); }
+  background-color: var(--bgPrimary); }
 
 .bg2, .bgSecondary, .bg-secondary {
-  background-color: var(--bg-secondary); }
+  background-color: var(--bgSecondary); }
 
 .bg3, .bgLight, .bg-light {
-  background-color: var(--bg-light); }
+  background-color: var(--bgLight); }
 
 .bg4, .bgDark, .bg-dark {
-  background-color: var(--bg-dark); }
+  background-color: var(--bgDark); }
 
 .bg5, .bgEmphasis, .bg-emphasis {
-  background-color: var(--bg-emphasis); }
+  background-color: var(--bgEmphasis); }
 
 .bgIni, .bgInitial, .bg-initial {
   background-color: initial; }
@@ -83,30 +83,177 @@
 /*---------------------------------------------------------
 ---- TEXT COLOR  
 ---------------------------------------------------------*/
-.t0, .textNone, .text-none {
+.t0, .tNone, .textNone, .text-none {
   color: none;
   background-color: none; }
 
-.t1, .textPrimary, .text-primary {
-  color: var(--color-primary);
-  background-color: var(--bg-primary); }
+.t1, .tPrimary, .textPrimary, .text-primary {
+  color: var(--cPrimary);
+  background-color: var(--bgPrimary); }
 
-.t2, .textSecondary, .text-secondary {
-  color: var(--color-secondary);
-  background-color: var(--bg-secondary); }
+.t2, .tSecondary, .textSecondary, .text-secondary {
+  color: var(--cSecondary);
+  background-color: var(--bgSecondary); }
 
-.t3, .textLight, .text-light {
-  color: var(--color-light);
-  background-color: var(--bg-light); }
+.t3, .tLight, .textLight, .text-light {
+  color: var(--cLight);
+  background-color: var(--bgLight); }
 
-.t4, .textDark, .text-dark {
-  color: var(--color-dark);
-  background-color: var(--bg-dark); }
+.t4, .tDark, .textDark, .text-dark {
+  color: var(--cDark);
+  background-color: var(--bgDark); }
 
-.t5, .textEmphasis, .text-emphasis {
-  color: var(--color-emphasis);
-  background-color: var(--bg-emphasis); }
+.t5, .tEmphasis, .textEmphasis, .text-emphasis {
+  color: var(--cEmphasis);
+  background-color: var(--bgEmphasis); }
 
-.tIni, .textInitial, .bg-initial {
+.tIni, .tInitial, .textInitial, .text-initial {
   color: initial;
   background-color: initial; }
+
+:root {
+  /*-----------------------------------
+  ---- PADDING VARS
+  -----------------------------------*/
+  --pSmall:  1px;
+  --pLess:   2px;
+  --pMedium: 4px;
+  --pMore:   8px;
+  --pBig:    16px;
+  --p1: var(--pSmall);
+  --p2: var(--pLess);
+  --p3: var(--pMedium);
+  --p4: var(--pMore);
+  --p5: var(--pBig); }
+
+/*---------------------------------------------------------
+---- PADDING  
+---------------------------------------------------------*/
+.p0, .pNone, .paddingNone, .padding-none {
+  padding: none; }
+
+.p1, .pSmall, .paddingSmall, .padding-small {
+  padding: var(--p1); }
+
+.p2, .pLess, .paddingLess, .padding-less {
+  padding: var(--p2); }
+
+.p3, .pMedium, .paddingMedium, .padding-medium {
+  padding: var(--p3); }
+
+.p4, .pMore, .paddingMore, .padding-more {
+  padding: var(--p4); }
+
+.p5, .pBig, .paddingBig, .padding-big {
+  padding: var(--p5); }
+
+.pIni, .pInitial, .paddingInitial, .padding-initial {
+  padding: initial; }
+
+/*---------------------------------------------------------
+---- PADDING TOP AND PADDING VERTICAL (top)
+---------------------------------------------------------*/
+.pt1, .ptSmall, .paddingTopSmall, .padding-top-small,
+.pv1, .pvSmall, .paddingVerticalSmall, .padding-vertical-small {
+  padding-top: var(--p1); }
+
+.pt2, .ptLess, .paddingTopLess, .padding-top-less,
+.pv2, .pvLess, .paddingVerticalLess, .padding-vertical-less {
+  padding-top: var(--p2); }
+
+.pt3, .ptMedium, .paddingTopMedium, .padding-top-medium,
+.pv3, .pvMedium, .paddingVerticalMedium, .padding-vertical-medium {
+  padding-top: var(--p3); }
+
+.pt4, .ptMore, .paddingTopMore, .padding-top-more,
+.pv4, .pvMore, .paddingVerticalMore, .padding-vertical-more {
+  padding-top: var(--p4); }
+
+.pt5, .ptBig, .paddingTopBig, .padding-top-big,
+.pv5, .pvBig, .paddingVerticalBig, .padding-vertical-big {
+  padding-top: var(--p5); }
+
+.ptIni, .ptInitial, .paddingTopInitial, .padding-top-initial
+.pvIni, .pvInitial, .paddingVerticalInitial, .padding-vertical-initial {
+  padding-top: initial; }
+
+/*---------------------------------------------------------
+---- PADDING RIGHT AND PADDING HORIZONTAL (right)
+---------------------------------------------------------*/
+.pr1, .prSmall, .paddingRightSmall, .padding-right-small
+.ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small {
+  padding-right: var(--p1); }
+
+.pr2, .prLess, .paddingRightLess, .padding-right-less
+.ph2, .phLess, .paddingHorizontalLess, .padding-horizontal-less {
+  padding-right: var(--p2); }
+
+.pr3, .prMedium, .paddingRightMedium, .padding-right-medium
+.ph3, .phMedium, .paddingHorizontalMedium, .padding-horizontal-medium {
+  padding-right: var(--p3); }
+
+.pr4, .prMore, .paddingRightMore, .padding-right-more
+.ph4, .phMore, .paddingHorizontalMore, .padding-horizontal-more {
+  padding-right: var(--p4); }
+
+.pr5, .prBig, .paddingRightBig, .padding-right-big
+.ph5, .phBig, .paddingHorizontalBig, .padding-horizontal-big {
+  padding-right: var(--p5); }
+
+.phIni, .phInitial, .paddingRightInitial, .padding-right-initial
+.phIni, .phInitial, .paddingHorizontalInitial, .padding-horizontal-initial {
+  padding-right: initial; }
+
+/*---------------------------------------------------------
+---- PADDING BOTTOM AND PADDING VERTICAL (bottom)
+---------------------------------------------------------*/
+.pb1, .pbSmall, .paddingBottomSmall, .padding-bottom-small,
+.pv1, .pvSmall, .paddingVerticallSmall, .padding-vertical-small {
+  padding-bottom: var(--p1); }
+
+.pb2, .pbLess, .paddingBottomLess, .padding-bottom-less,
+.pv2, .pvLess, .paddingVerticallLess, .padding-vertical-less {
+  padding-bottom: var(--p2); }
+
+.pb3, .pbMedium, .paddingBottomMedium, .padding-bottom-medium,
+.pv3, .pvMedium, .paddingVerticallMedium, .padding-vertical-medium {
+  padding-bottom: var(--p3); }
+
+.pb4, .pbMore, .paddingBottomMore, .padding-bottom-more,
+.pv4, .pvMore, .paddingVerticallMore, .padding-vertical-more {
+  padding-bottom: var(--p4); }
+
+.pb5, .pbBig, .paddingBottomBig, .paddinBig-bottom-big,
+.pv5, .pvBig, .paddingVerticallBig, .padding-vertical-big {
+  padding-bottom: var(--p5); }
+
+.pbIni, .pbInitial, .paddingBottomInitial, .padding-bottom-initial
+.pvIni, .pvInitial, .paddingVerticalInitial, .padding-vertical-initial {
+  padding-bottom: initial; }
+
+/*---------------------------------------------------------
+---- PADDING LEFT AND PADDING HORIZONTAL (left)
+---------------------------------------------------------*/
+.pl1, .plSmall, .paddingLeftSmall, .padding-left-small
+.ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small {
+  padding-left: var(--p1); }
+
+.pl2, .plLess, .paddingLeftLess, .padding-left-less
+.ph2, .phLess, .paddingHorizontalLess, .padding-horizontal-less {
+  padding-left: var(--p2); }
+
+.pl3, .plMedium, .paddingLeftMedium, .padding-left-medium
+.ph3, .phMedium, .paddingHorizontalMedium, .padding-horizontal-medium {
+  padding-left: var(--p3); }
+
+.pl4, .plMore, .paddingLeftMore, .padding-left-more
+.ph4, .phMore, .paddingHorizontalMore, .padding-horizontal-more {
+  padding-left: var(--p4); }
+
+.pl5, .plBig, .paddingLeftBig, .padding-left-big
+.ph5, .phBig, .paddingHorizontalBig, .padding-horizontal-big {
+  padding-left: var(--p5); }
+
+.plIni, .plInitial, .paddingLeftInitial, .padding-left-initial
+.phIni, .phInitial, .paddingHorizontalInitial, .padding-horizontal-initial {
+  padding-left: initial; }
