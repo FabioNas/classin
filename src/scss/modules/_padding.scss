@@ -1,0 +1,195 @@
+/*---------------------------------------------------------
+---- PADDING  
+---------------------------------------------------------*/
+
+.p0, .pNone, .paddingNone, .padding-none {
+  padding: none;
+}
+
+.p1, .pSmall, .paddingSmall, .padding-small {
+  padding: var(--p1);
+}
+
+.p2, .pLess, .paddingLess, .padding-less {
+  padding: var(--p2);
+}
+
+.p3, .pMedium, .paddingMedium, .padding-medium {
+  padding: var(--p3);
+}
+
+.p4, .pMore, .paddingMore, .padding-more {
+  padding: var(--p4);
+}
+
+.p5, .pBig, .paddingBig, .padding-big {
+  padding: var(--p5);
+}
+
+.pIni, .pInitial, .paddingInitial, .padding-initial {
+  padding: initial;
+}
+
+
+/*---------------------------------------------------------
+---- PADDING TOP AND PADDING VERTICAL (top)
+---------------------------------------------------------*/
+
+.pt1, .ptSmall, .paddingTopSmall, .padding-top-small,
+.pv1, .pvSmall, .paddingVerticalSmall, .padding-vertical-small /* PADDING VERTICAL (top) */
+{
+  padding-top: var(--p1);
+}
+
+.pt2, .ptLess, .paddingTopLess, .padding-top-less,
+.pv2, .pvLess, .paddingVerticalLess, .padding-vertical-less /* PADDING VERTICAL (top) */
+{
+  padding-top: var(--p2);
+}
+
+.pt3, .ptMedium, .paddingTopMedium, .padding-top-medium,
+.pv3, .pvMedium, .paddingVerticalMedium, .padding-vertical-medium /* PADDING VERTICAL (top) */
+{
+  padding-top: var(--p3);
+}
+
+.pt4, .ptMore, .paddingTopMore, .padding-top-more,
+.pv4, .pvMore, .paddingVerticalMore, .padding-vertical-more /* PADDING VERTICAL (top) */
+{
+  padding-top: var(--p4);
+}
+
+.pt5, .ptBig, .paddingTopBig, .padding-top-big,
+.pv5, .pvBig, .paddingVerticalBig, .padding-vertical-big /* PADDING VERTICAL (top) */
+{
+  padding-top: var(--p5);
+}
+
+.ptIni, .ptInitial, .paddingTopInitial, .padding-top-initial
+.pvIni, .pvInitial, .paddingVerticalInitial, .padding-vertical-initial /* PADDING VERTICAL (top) */
+{
+  padding-top: initial;
+}
+
+
+/*---------------------------------------------------------
+---- PADDING RIGHT AND PADDING HORIZONTAL (right)
+---------------------------------------------------------*/
+
+.pr1, .prSmall, .paddingRightSmall, .padding-right-small
+.ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small /* PADDING HORIZONTAL (right) */
+{
+  padding-right: var(--p1);
+}
+
+.pr2, .prLess, .paddingRightLess, .padding-right-less
+.ph2, .phLess, .paddingHorizontalLess, .padding-horizontal-less /* PADDING HORIZONTAL (right) */
+{
+  padding-right: var(--p2);
+}
+
+.pr3, .prMedium, .paddingRightMedium, .padding-right-medium
+.ph3, .phMedium, .paddingHorizontalMedium, .padding-horizontal-medium /* PADDING HORIZONTAL (right) */
+{
+  padding-right: var(--p3);
+}
+
+.pr4, .prMore, .paddingRightMore, .padding-right-more
+.ph4, .phMore, .paddingHorizontalMore, .padding-horizontal-more /* PADDING HORIZONTAL (right) */
+{
+  padding-right: var(--p4);
+}
+
+.pr5, .prBig, .paddingRightBig, .padding-right-big
+.ph5, .phBig, .paddingHorizontalBig, .padding-horizontal-big /* PADDING HORIZONTAL (right) */
+{
+  padding-right: var(--p5);
+}
+
+.phIni, .phInitial, .paddingRightInitial, .padding-right-initial
+.phIni, .phInitial, .paddingHorizontalInitial, .padding-horizontal-initial /* PADDING VERTICAL (right) */
+{
+  padding-right: initial;
+}
+
+
+/*---------------------------------------------------------
+---- PADDING BOTTOM AND PADDING VERTICAL (bottom)
+---------------------------------------------------------*/
+
+.pb1, .pbSmall, .paddingBottomSmall, .padding-bottom-small,
+.pv1, .pvSmall, .paddingVerticallSmall, .padding-vertical-small /* PADDING VERTICAL (bottom) */
+ {
+  padding-bottom: var(--p1);
+}
+
+.pb2, .pbLess, .paddingBottomLess, .padding-bottom-less,
+.pv2, .pvLess, .paddingVerticallLess, .padding-vertical-less /* PADDING VERTICAL (bottom) */
+ {
+  padding-bottom: var(--p2);
+}
+
+.pb3, .pbMedium, .paddingBottomMedium, .padding-bottom-medium,
+.pv3, .pvMedium, .paddingVerticallMedium, .padding-vertical-medium /* PADDING VERTICAL (bottom) */
+ {
+  padding-bottom: var(--p3);
+}
+
+.pb4, .pbMore, .paddingBottomMore, .padding-bottom-more,
+.pv4, .pvMore, .paddingVerticallMore, .padding-vertical-more /* PADDING VERTICAL (bottom) */
+ {
+  padding-bottom: var(--p4);
+}
+
+.pb5, .pbBig, .paddingBottomBig, .paddinBig-bottom-big,
+.pv5, .pvBig, .paddingVerticallBig, .padding-vertical-big /* PADDING VERTICAL (bottom) */
+{
+  padding-bottom: var(--p5);
+}
+
+.pbIni, .pbInitial, .paddingBottomInitial, .padding-bottom-initial
+.pvIni, .pvInitial, .paddingVerticalInitial, .padding-vertical-initial /* PADDING VERTICAL (bottom) */
+{
+  padding-bottom: initial;
+}
+
+
+/*---------------------------------------------------------
+---- PADDING LEFT AND PADDING HORIZONTAL (left)
+---------------------------------------------------------*/
+
+.pl1, .plSmall, .paddingLeftSmall, .padding-left-small
+.ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small /* PADDING HORIZONTAL (left) */
+{
+  padding-left: var(--p1);
+}
+
+.pl2, .plLess, .paddingLeftLess, .padding-left-less
+.ph2, .phLess, .paddingHorizontalLess, .padding-horizontal-less /* PADDING HORIZONTAL (left) */
+{
+  padding-left: var(--p2);
+}
+
+.pl3, .plMedium, .paddingLeftMedium, .padding-left-medium
+.ph3, .phMedium, .paddingHorizontalMedium, .padding-horizontal-medium /* PADDING HORIZONTAL (left) */
+{
+  padding-left: var(--p3);
+}
+
+.pl4, .plMore, .paddingLeftMore, .padding-left-more
+.ph4, .phMore, .paddingHorizontalMore, .padding-horizontal-more /* PADDING HORIZONTAL (left) */
+{
+  padding-left: var(--p4);
+}
+
+.pl5, .plBig, .paddingLeftBig, .padding-left-big
+.ph5, .phBig, .paddingHorizontalBig, .padding-horizontal-big /* PADDING HORIZONTAL (left) */
+{
+  padding-left: var(--p5);
+}
+
+.plIni, .plInitial, .paddingLeftInitial, .padding-left-initial
+.phIni, .phInitial, .paddingHorizontalInitial, .padding-horizontal-initial /* PADDING VERTICAL (right) */
+{
+  padding-left: initial;
+}

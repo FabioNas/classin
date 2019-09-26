@@ -1,0 +1,19 @@
+:root {
+  
+  /*-----------------------------------
+  ---- PADDING VARS
+  -----------------------------------*/
+
+  --pSmall:  1px;   // small padding
+  --pLess:   2px;   // less padding + minus
+  --pMedium: 4px;   // medium padding
+  --pMore:   8px;   // more padding = plus
+  --pBig:    16px;  // big padding
+
+  --p1: var(--pSmall);
+  --p2: var(--pLess);
+  --p3: var(--pMedium);
+  --p4: var(--pMore);
+  --p5: var(--pBig);
+
+}
