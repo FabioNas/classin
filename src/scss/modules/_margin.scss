@@ -1,0 +1,219 @@
+/*---------------------------------------------------------
+---- MARGIN
+---------------------------------------------------------*/
+
+.m0, .mNone, .marginNone, .margin-none {
+  margin: none;
+}
+
+.m1, .mSmall, .marginSmall, .margin-small {
+  margin: var(--m1);
+}
+
+.m2, .mLess, .marginLess, .margin-less {
+  margin: var(--m2);
+}
+
+.m3, .mMedium, .marginMedium, .margin-medium {
+  margin: var(--m3);
+}
+
+.m4, .mMore, .marginMore, .margin-more {
+  margin: var(--m4);
+}
+
+.m5, .mBig, .marginBig, .margin-big {
+  margin: var(--m5);
+}
+
+.mIni, .mInitial, .marginInitial, .margin-initial {
+  margin: initial;
+}
+
+
+/*---------------------------------------------------------
+---- MARGIN TOP AND MARGIN VERTICAL (top)
+---------------------------------------------------------*/
+
+.mt0, .mtNone, .marginTopNone, .margin-top-none
+.mv0, .mvNone, .marginVerticalNone, .margin-vertical-none
+{
+  margin-top: none;
+}
+
+.mt1, .mtSmall, .marginTopSmall, .margin-top-small,
+.mv1, .mvSmall, .marginVerticalSmall, .margin-vertical-small /* MARGIN VERTICAL (top) */
+{
+  margin-top: var(--m1);
+}
+
+.mt2, .mtLess, .marginTopLess, .margin-top-less,
+.mv2, .mvLess, .marginVerticalLess, .margin-vertical-less /* MARGIN VERTICAL (top) */
+{
+  margin-top: var(--m2);
+}
+
+.mt3, .mtMedium, .marginTopMedium, .margin-top-medium,
+.mv3, .mvMedium, .marginVerticalMedium, .margin-vertical-medium /* MARGIN VERTICAL (top) */
+{
+  margin-top: var(--m3);
+}
+
+.mt4, .mtMore, .marginTopMore, .margin-top-more,
+.mv4, .mvMore, .marginVerticalMore, .margin-vertical-more /* MARGIN VERTICAL (top) */
+{
+  margin-top: var(--m4);
+}
+
+.mt5, .mtBig, .marginTopBig, .margin-top-big,
+.mv5, .mvBig, .marginVerticalBig, .margin-vertical-big /* MARGIN VERTICAL (top) */
+{
+  margin-top: var(--m5);
+}
+
+.mtIni, .mtInitial, .marginTopInitial, .margin-top-initial
+.mvIni, .mvInitial, .marginVerticalInitial, .margin-vertical-initial /* MARGIN VERTICAL (top) */
+{
+  margin-top: initial;
+}
+
+
+/*---------------------------------------------------------
+---- MARGIN RIGHT AND MARGIN HORIZONTAL (right)
+---------------------------------------------------------*/
+
+.mr0, .mrNone, .marginRightNone, .margin-right-none
+.mh0, .mhNone, .marginHorizontalNone, .margin-horizontal-none
+{
+  margin-right: none;
+}
+
+.mr1, .mrSmall, .marginRightSmall, .margin-right-small
+.mh1, .mhSmall, .marginHorizontalSmall, .margin-horizontal-small /* MARGIN HORIZONTAL (right) */
+{
+  margin-right: var(--m1);
+}
+
+.mr2, .mrLess, .marginRightLess, .margin-right-less
+.mh2, .mhLess, .marginHorizontalLess, .margin-horizontal-less /* MARGIN HORIZONTAL (right) */
+{
+  margin-right: var(--m2);
+}
+
+.mr3, .mrMedium, .marginRightMedium, .margin-right-medium
+.mh3, .mhMedium, .marginHorizontalMedium, .margin-horizontal-medium /* MARGIN HORIZONTAL (right) */
+{
+  margin-right: var(--m3);
+}
+
+.mr4, .mrMore, .marginRightMore, .margin-right-more
+.mh4, .mhMore, .marginHorizontalMore, .margin-horizontal-more /* MARGIN HORIZONTAL (right) */
+{
+  margin-right: var(--m4);
+}
+
+.mr5, .mrBig, .marginRightBig, .margin-right-big
+.mh5, .mhBig, .marginHorizontalBig, .margin-horizontal-big /* MARGIN HORIZONTAL (right) */
+{
+  margin-right: var(--m5);
+}
+
+.mhIni, .mhInitial, .marginRightInitial, .margin-right-initial
+.mhIni, .mhInitial, .marginHorizontalInitial, .margin-horizontal-initial /* MARGIN VERTICAL (right) */
+{
+  margin-right: initial;
+}
+
+
+/*---------------------------------------------------------
+---- MARGIN BOTTOM AND MARGIN VERTICAL (bottom)
+---------------------------------------------------------*/
+
+.mb0, .mbNone, .marginBottomNone, .margin-bottom-none
+.mv0, .mvNone, .marginVerticalNone, .margin-vertical-none
+{
+  margin-bottom: none;
+}
+
+.mb1, .mbSmall, .marginBottomSmall, .margin-bottom-small,
+.mv1, .mvSmall, .marginVerticallSmall, .margin-vertical-small /* MARGIN VERTICAL (bottom) */
+{
+  margin-bottom: var(--m1);
+}
+
+.mb2, .mbLess, .marginBottomLess, .margin-bottom-less,
+.mv2, .mvLess, .marginVerticallLess, .margin-vertical-less /* MARGIN VERTICAL (bottom) */
+ {
+  margin-bottom: var(--m2);
+}
+
+.mb3, .mbMedium, .marginBottomMedium, .margin-bottom-medium,
+.mv3, .mvMedium, .marginVerticallMedium, .margin-vertical-medium /* MARGIN VERTICAL (bottom) */
+{
+  margin-bottom: var(--m3);
+}
+
+.mb4, .mbMore, .marginBottomMore, .margin-bottom-more,
+.mv4, .mvMore, .marginVerticallMore, .margin-vertical-more /* MARGIN VERTICAL (bottom) */
+{
+  margin-bottom: var(--m4);
+}
+
+.mb5, .mbBig, .marginBottomBig, .maddinBig-bottom-big,
+.mv5, .mvBig, .marginVerticallBig, .margin-vertical-big /* MARGIN VERTICAL (bottom) */
+{
+  margin-bottom: var(--m5);
+}
+
+.mbIni, .mbInitial, .marginBottomInitial, .margin-bottom-initial
+.mvIni, .mvInitial, .marginVerticalInitial, .margin-vertical-initial /* MARGIN VERTICAL (bottom) */
+{
+  margin-bottom: initial;
+}
+
+
+/*---------------------------------------------------------
+---- MARGIN LEFT AND MARGIN HORIZONTAL (left)
+---------------------------------------------------------*/
+
+.ml0, .mlNone, .marginLeftNone, .margin-left-none 
+.mh0, .mhNone, .marginHorizontalNone, .margin-horizontal-none
+{
+  margin-left: none;
+}
+
+.ml1, .mlSmall, .marginLeftSmall, .margin-left-small
+.mh1, .mhSmall, .marginHorizontalSmall, .margin-horizontal-small /* MARGIN HORIZONTAL (left) */
+{
+  margin-left: var(--m1);
+}
+
+.ml2, .mlLess, .marginLeftLess, .margin-left-less
+.mh2, .mhLess, .marginHorizontalLess, .margin-horizontal-less /* MARGIN HORIZONTAL (left) */
+{
+  margin-left: var(--m2);
+}
+
+.ml3, .mlMedium, .marginLeftMedium, .margin-left-medium
+.mh3, .mhMedium, .marginHorizontalMedium, .margin-horizontal-medium /* MARGIN HORIZONTAL (left) */
+{
+  margin-left: var(--m3);
+}
+
+.ml4, .mlMore, .marginLeftMore, .margin-left-more
+.mh4, .mhMore, .marginHorizontalMore, .margin-horizontal-more /* MARGIN HORIZONTAL (left) */
+{
+  margin-left: var(--m4);
+}
+
+.ml5, .mlBig, .marginLeftBig, .margin-left-big
+.mh5, .mhBig, .marginHorizontalBig, .margin-horizontal-big /* MARGIN HORIZONTAL (left) */
+{
+  margin-left: var(--m5);
+}
+
+.mlIni, .mlInitial, .marginLeftInitial, .margin-left-initial
+.mhIni, .mhInitial, .marginHorizontalInitial, .margin-horizontal-initial /* MARGIN VERTICAL (right) */
+{
+  margin-left: initial;
+}

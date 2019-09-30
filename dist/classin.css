@@ -153,6 +153,10 @@
 /*---------------------------------------------------------
 ---- PADDING TOP AND PADDING VERTICAL (top)
 ---------------------------------------------------------*/
+.pt0, .ptNone, .paddingTopNone, .padding-top-none
+.pv0, .pvNone, .paddingVerticalNone, .padding-vertical-none {
+  padding-top: none; }
+
 .pt1, .ptSmall, .paddingTopSmall, .padding-top-small,
 .pv1, .pvSmall, .paddingVerticalSmall, .padding-vertical-small {
   padding-top: var(--p1); }
@@ -180,6 +184,10 @@
 /*---------------------------------------------------------
 ---- PADDING RIGHT AND PADDING HORIZONTAL (right)
 ---------------------------------------------------------*/
+.pr0, .prNone, .paddingRightNone, .padding-right-none
+.ph0, .phNone, .paddingHorizontalNone, .padding-horizontal-none {
+  padding-right: none; }
+
 .pr1, .prSmall, .paddingRightSmall, .padding-right-small
 .ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small {
   padding-right: var(--p1); }
@@ -207,6 +215,10 @@
 /*---------------------------------------------------------
 ---- PADDING BOTTOM AND PADDING VERTICAL (bottom)
 ---------------------------------------------------------*/
+.pb0, .pbNone, .paddingBottomNone, .padding-bottom-none
+.pv0, .pvNone, .paddingVerticalNone, .padding-vertical-none {
+  padding-bottom: none; }
+
 .pb1, .pbSmall, .paddingBottomSmall, .padding-bottom-small,
 .pv1, .pvSmall, .paddingVerticallSmall, .padding-vertical-small {
   padding-bottom: var(--p1); }
@@ -234,6 +246,10 @@
 /*---------------------------------------------------------
 ---- PADDING LEFT AND PADDING HORIZONTAL (left)
 ---------------------------------------------------------*/
+.pl0, .plNone, .paddingLeftNone, .padding-left-none
+.ph0, .phNone, .paddingHorizontalNone, .padding-horizontal-none {
+  padding-left: none; }
+
 .pl1, .plSmall, .paddingLeftSmall, .padding-left-small
 .ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small {
   padding-left: var(--p1); }
@@ -257,3 +273,166 @@
 .plIni, .plInitial, .paddingLeftInitial, .padding-left-initial
 .phIni, .phInitial, .paddingHorizontalInitial, .padding-horizontal-initial {
   padding-left: initial; }
+
+:root {
+  /*-----------------------------------
+  ---- MARGIN VARS
+  -----------------------------------*/
+  --mSmall:  0.2rem;
+  --mLess:   0.5rem;
+  --mMedium: 1rem;
+  --mMore:   2rem;
+  --mBig:    5rem;
+  --m1: var(--mSmall);
+  --m2: var(--mLess);
+  --m3: var(--mMedium);
+  --m4: var(--mMore);
+  --m5: var(--mBig); }
+
+/*---------------------------------------------------------
+---- MARGIN
+---------------------------------------------------------*/
+.m0, .mNone, .marginNone, .margin-none {
+  margin: none; }
+
+.m1, .mSmall, .marginSmall, .margin-small {
+  margin: var(--m1); }
+
+.m2, .mLess, .marginLess, .margin-less {
+  margin: var(--m2); }
+
+.m3, .mMedium, .marginMedium, .margin-medium {
+  margin: var(--m3); }
+
+.m4, .mMore, .marginMore, .margin-more {
+  margin: var(--m4); }
+
+.m5, .mBig, .marginBig, .margin-big {
+  margin: var(--m5); }
+
+.mIni, .mInitial, .marginInitial, .margin-initial {
+  margin: initial; }
+
+/*---------------------------------------------------------
+---- MARGIN TOP AND MARGIN VERTICAL (top)
+---------------------------------------------------------*/
+.mt0, .mtNone, .marginTopNone, .margin-top-none
+.mv0, .mvNone, .marginVerticalNone, .margin-vertical-none {
+  margin-top: none; }
+
+.mt1, .mtSmall, .marginTopSmall, .margin-top-small,
+.mv1, .mvSmall, .marginVerticalSmall, .margin-vertical-small {
+  margin-top: var(--m1); }
+
+.mt2, .mtLess, .marginTopLess, .margin-top-less,
+.mv2, .mvLess, .marginVerticalLess, .margin-vertical-less {
+  margin-top: var(--m2); }
+
+.mt3, .mtMedium, .marginTopMedium, .margin-top-medium,
+.mv3, .mvMedium, .marginVerticalMedium, .margin-vertical-medium {
+  margin-top: var(--m3); }
+
+.mt4, .mtMore, .marginTopMore, .margin-top-more,
+.mv4, .mvMore, .marginVerticalMore, .margin-vertical-more {
+  margin-top: var(--m4); }
+
+.mt5, .mtBig, .marginTopBig, .margin-top-big,
+.mv5, .mvBig, .marginVerticalBig, .margin-vertical-big {
+  margin-top: var(--m5); }
+
+.mtIni, .mtInitial, .marginTopInitial, .margin-top-initial
+.mvIni, .mvInitial, .marginVerticalInitial, .margin-vertical-initial {
+  margin-top: initial; }
+
+/*---------------------------------------------------------
+---- MARGIN RIGHT AND MARGIN HORIZONTAL (right)
+---------------------------------------------------------*/
+.mr0, .mrNone, .marginRightNone, .margin-right-none
+.mh0, .mhNone, .marginHorizontalNone, .margin-horizontal-none {
+  margin-right: none; }
+
+.mr1, .mrSmall, .marginRightSmall, .margin-right-small
+.mh1, .mhSmall, .marginHorizontalSmall, .margin-horizontal-small {
+  margin-right: var(--m1); }
+
+.mr2, .mrLess, .marginRightLess, .margin-right-less
+.mh2, .mhLess, .marginHorizontalLess, .margin-horizontal-less {
+  margin-right: var(--m2); }
+
+.mr3, .mrMedium, .marginRightMedium, .margin-right-medium
+.mh3, .mhMedium, .marginHorizontalMedium, .margin-horizontal-medium {
+  margin-right: var(--m3); }
+
+.mr4, .mrMore, .marginRightMore, .margin-right-more
+.mh4, .mhMore, .marginHorizontalMore, .margin-horizontal-more {
+  margin-right: var(--m4); }
+
+.mr5, .mrBig, .marginRightBig, .margin-right-big
+.mh5, .mhBig, .marginHorizontalBig, .margin-horizontal-big {
+  margin-right: var(--m5); }
+
+.mhIni, .mhInitial, .marginRightInitial, .margin-right-initial
+.mhIni, .mhInitial, .marginHorizontalInitial, .margin-horizontal-initial {
+  margin-right: initial; }
+
+/*---------------------------------------------------------
+---- MARGIN BOTTOM AND MARGIN VERTICAL (bottom)
+---------------------------------------------------------*/
+.mb0, .mbNone, .marginBottomNone, .margin-bottom-none
+.mv0, .mvNone, .marginVerticalNone, .margin-vertical-none {
+  margin-bottom: none; }
+
+.mb1, .mbSmall, .marginBottomSmall, .margin-bottom-small,
+.mv1, .mvSmall, .marginVerticallSmall, .margin-vertical-small {
+  margin-bottom: var(--m1); }
+
+.mb2, .mbLess, .marginBottomLess, .margin-bottom-less,
+.mv2, .mvLess, .marginVerticallLess, .margin-vertical-less {
+  margin-bottom: var(--m2); }
+
+.mb3, .mbMedium, .marginBottomMedium, .margin-bottom-medium,
+.mv3, .mvMedium, .marginVerticallMedium, .margin-vertical-medium {
+  margin-bottom: var(--m3); }
+
+.mb4, .mbMore, .marginBottomMore, .margin-bottom-more,
+.mv4, .mvMore, .marginVerticallMore, .margin-vertical-more {
+  margin-bottom: var(--m4); }
+
+.mb5, .mbBig, .marginBottomBig, .maddinBig-bottom-big,
+.mv5, .mvBig, .marginVerticallBig, .margin-vertical-big {
+  margin-bottom: var(--m5); }
+
+.mbIni, .mbInitial, .marginBottomInitial, .margin-bottom-initial
+.mvIni, .mvInitial, .marginVerticalInitial, .margin-vertical-initial {
+  margin-bottom: initial; }
+
+/*---------------------------------------------------------
+---- MARGIN LEFT AND MARGIN HORIZONTAL (left)
+---------------------------------------------------------*/
+.ml0, .mlNone, .marginLeftNone, .margin-left-none
+.mh0, .mhNone, .marginHorizontalNone, .margin-horizontal-none {
+  margin-left: none; }
+
+.ml1, .mlSmall, .marginLeftSmall, .margin-left-small
+.mh1, .mhSmall, .marginHorizontalSmall, .margin-horizontal-small {
+  margin-left: var(--m1); }
+
+.ml2, .mlLess, .marginLeftLess, .margin-left-less
+.mh2, .mhLess, .marginHorizontalLess, .margin-horizontal-less {
+  margin-left: var(--m2); }
+
+.ml3, .mlMedium, .marginLeftMedium, .margin-left-medium
+.mh3, .mhMedium, .marginHorizontalMedium, .margin-horizontal-medium {
+  margin-left: var(--m3); }
+
+.ml4, .mlMore, .marginLeftMore, .margin-left-more
+.mh4, .mhMore, .marginHorizontalMore, .margin-horizontal-more {
+  margin-left: var(--m4); }
+
+.ml5, .mlBig, .marginLeftBig, .margin-left-big
+.mh5, .mhBig, .marginHorizontalBig, .margin-horizontal-big {
+  margin-left: var(--m5); }
+
+.mlIni, .mlInitial, .marginLeftInitial, .margin-left-initial
+.mhIni, .mhInitial, .marginHorizontalInitial, .margin-horizontal-initial {
+  margin-left: initial; }

@@ -35,6 +35,12 @@
 ---- PADDING TOP AND PADDING VERTICAL (top)
 ---------------------------------------------------------*/
 
+.pt0, .ptNone, .paddingTopNone, .padding-top-none
+.pv0, .pvNone, .paddingVerticalNone, .padding-vertical-none
+{
+  padding-top: none;
+}
+
 .pt1, .ptSmall, .paddingTopSmall, .padding-top-small,
 .pv1, .pvSmall, .paddingVerticalSmall, .padding-vertical-small /* PADDING VERTICAL (top) */
 {
@@ -75,6 +81,12 @@
 /*---------------------------------------------------------
 ---- PADDING RIGHT AND PADDING HORIZONTAL (right)
 ---------------------------------------------------------*/
+
+.pr0, .prNone, .paddingRightNone, .padding-right-none
+.ph0, .phNone, .paddingHorizontalNone, .padding-horizontal-none
+{
+  padding-right: none;
+}
 
 .pr1, .prSmall, .paddingRightSmall, .padding-right-small
 .ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small /* PADDING HORIZONTAL (right) */
@@ -117,27 +129,33 @@
 ---- PADDING BOTTOM AND PADDING VERTICAL (bottom)
 ---------------------------------------------------------*/
 
+.pb0, .pbNone, .paddingBottomNone, .padding-bottom-none
+.pv0, .pvNone, .paddingVerticalNone, .padding-vertical-none
+{
+  padding-bottom: none;
+}
+
 .pb1, .pbSmall, .paddingBottomSmall, .padding-bottom-small,
 .pv1, .pvSmall, .paddingVerticallSmall, .padding-vertical-small /* PADDING VERTICAL (bottom) */
- {
+{
   padding-bottom: var(--p1);
 }
 
 .pb2, .pbLess, .paddingBottomLess, .padding-bottom-less,
 .pv2, .pvLess, .paddingVerticallLess, .padding-vertical-less /* PADDING VERTICAL (bottom) */
- {
+{
   padding-bottom: var(--p2);
 }
 
 .pb3, .pbMedium, .paddingBottomMedium, .padding-bottom-medium,
 .pv3, .pvMedium, .paddingVerticallMedium, .padding-vertical-medium /* PADDING VERTICAL (bottom) */
- {
+{
   padding-bottom: var(--p3);
 }
 
 .pb4, .pbMore, .paddingBottomMore, .padding-bottom-more,
 .pv4, .pvMore, .paddingVerticallMore, .padding-vertical-more /* PADDING VERTICAL (bottom) */
- {
+{
   padding-bottom: var(--p4);
 }
 
@@ -157,6 +175,12 @@
 /*---------------------------------------------------------
 ---- PADDING LEFT AND PADDING HORIZONTAL (left)
 ---------------------------------------------------------*/
+
+.pl0, .plNone, .paddingLeftNone, .padding-left-none 
+.ph0, .phNone, .paddingHorizontalNone, .padding-horizontal-none
+{
+  padding-left: none;
+}
 
 .pl1, .plSmall, .paddingLeftSmall, .padding-left-small
 .ph1, .phSmall, .paddingHorizontalSmall, .padding-horizontal-small /* PADDING HORIZONTAL (left) */

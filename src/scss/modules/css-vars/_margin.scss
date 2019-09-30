@@ -1,0 +1,19 @@
+:root {
+
+  /*-----------------------------------
+  ---- MARGIN VARS
+  -----------------------------------*/
+
+  --mSmall:  0.2rem;  // small margin
+  --mLess:   0.5rem;  // less margin
+  --mMedium: 1rem;    // medium margin
+  --mMore:   2rem;    // more margin
+  --mBig:    5rem;    // big margin
+
+  --m1: var(--mSmall);
+  --m2: var(--mLess);
+  --m3: var(--mMedium);
+  --m4: var(--mMore);
+  --m5: var(--mBig);
+
+}
