@@ -113,7 +113,7 @@
 
 :root {
   /*-----------------------------------
-  ---- PADDING VARS
+  ---- PADDING SIZE VARS
   -----------------------------------*/
   --pSmall:  1px;
   --pLess:   2px;
@@ -276,7 +276,7 @@
 
 :root {
   /*-----------------------------------
-  ---- MARGIN VARS
+  ---- MARGIN SIZE VARS
   -----------------------------------*/
   --mSmall:  0.2rem;
   --mLess:   0.5rem;
@@ -436,3 +436,44 @@
 .mlIni, .mlInitial, .marginLeftInitial, .margin-left-initial
 .mhIni, .mhInitial, .marginHorizontalInitial, .margin-horizontal-initial {
   margin-left: initial; }
+
+:root {
+  /*-----------------------------------
+  ---- BORDER CONCISE VARS
+  -----------------------------------*/
+  --bConciseSize: 1px;
+  --bConciseStyle: solid;
+  --bPrimary: var(--bConciseSize) var(--bConciseStyle) var(--cPrimary);
+  --bSecondary: var(--bConciseSize) var(--bConciseStyle) var(--cSecondary);
+  --bLight: var(--bConciseSize) var(--bConciseStyle) var(--cLight);
+  --bDark: var(--bConciseSize) var(--bConciseStyle) var(--cDark);
+  --bEmphasis: var(--bConciseSize) var(--bConciseStyle) var(--cEmphasis);
+  --b1: var(--bPrimary);
+  --b2: var(--bSecondary);
+  --b3: var(--bLight);
+  --b4: var(--bDark);
+  --b5: var(--bEmphasis); }
+
+/*---------------------------------------------------------
+---- BORDER CONCISE
+---------------------------------------------------------*/
+.b0, .bNone, .borderNone, .border-none {
+  border: none; }
+
+.b1, .bPrimary, .borderPrimary, .border-primary {
+  border: var(--b1); }
+
+.b2, .bSecondary, .borderSecondary, .border-secondary {
+  border: var(--b2); }
+
+.b3, .bLight, .borderLight, .border-light {
+  border: var(--b3); }
+
+.b4, .bDark, .borderDark, .border-dark {
+  border: var(--b4); }
+
+.b5, .bEmphasis, .borderEmphasis, .border-emphasis {
+  border: var(--b5); }
+
+.bIni, .bInitial, .borderInitial, .border-initial {
+  border: initial; }

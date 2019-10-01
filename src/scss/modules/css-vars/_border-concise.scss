@@ -1,0 +1,22 @@
+:root {
+
+  /*-----------------------------------
+  ---- BORDER CONCISE VARS
+  -----------------------------------*/
+
+  --bConciseSize: 1px;
+  --bConciseStyle: solid;
+
+  --bPrimary: var(--bConciseSize) var(--bConciseStyle) var(--cPrimary);
+  --bSecondary: var(--bConciseSize) var(--bConciseStyle) var(--cSecondary);
+  --bLight: var(--bConciseSize) var(--bConciseStyle) var(--cLight);
+  --bDark: var(--bConciseSize) var(--bConciseStyle) var(--cDark);
+  --bEmphasis: var(--bConciseSize) var(--bConciseStyle) var(--cEmphasis);
+
+  --b1: var(--bPrimary);
+  --b2: var(--bSecondary);
+  --b3: var(--bLight);
+  --b4: var(--bDark);
+  --b5: var(--bEmphasis);
+
+}
