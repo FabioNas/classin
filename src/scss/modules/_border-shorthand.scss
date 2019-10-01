@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
----- BORDER CONCISE
+---- BORDER SHORTHAND
 ---------------------------------------------------------*/
 
 .b0, .bNone, .borderNone, .border-none {
@@ -7,23 +7,23 @@
 }
 
 .b1, .bPrimary, .borderPrimary, .border-primary {
-  border: var(--b1);
+  border: var(--bWidth) var(--bStyle) var(--cPrimary);
 }
 
 .b2, .bSecondary, .borderSecondary, .border-secondary {
-  border: var(--b2);
+  border: var(--bWidth) var(--bStyle) var(--cSecondary);
 }
 
 .b3, .bLight, .borderLight, .border-light {
-  border: var(--b3);
+  border: var(--bWidth) var(--bStyle) var(--cLight);
 }
 
 .b4, .bDark, .borderDark, .border-dark {
-  border: var(--b4);
+  border: var(--bWidth) var(--bStyle) var(--cDark);
 }
 
 .b5, .bEmphasis, .borderEmphasis, .border-emphasis {
-  border: var(--b5);
+  border: var(--bWidth) var(--bStyle) var(--cEmphasis);
 }
 
 .bIni, .bInitial, .borderInitial, .border-initial {
