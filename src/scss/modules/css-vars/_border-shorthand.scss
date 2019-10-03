@@ -5,9 +5,178 @@
   -----------------------------------*/
 
   /// border shorthand width
-  --bWidth: 1px;
+  --bSmall: thin;
+  --bLess: 2px;
+  --bMedium: medium;
+  --bMore: 4px;
+  --bBig: thick;
 
   /// border shorthand style
   --bStyle: solid;
+
+  /// border shorthand color
+  --bColor: var(--cEmphasis, black);
+
+
+  /*-----------------------------------
+  ---- BORDER SHORTHAND CONCISE VARS
+  -----------------------------------*/
+
+  /// border shorthand width concise (conjectures)
+  // --bS: var(--bSmall);  //xs  // tiny
+  // --bL: var(--bLess);   //sm  // less
+  // --bM: var(--bMedium); //md  // med
+  // --bO: var(--bMore);   //lx  // more
+  // --bB: var(--bBig);    //xl  // big
+
+  /// border shorthand style concise
+  --bs: var(--bStyle);
+
+  /// border shorthand color concise
+  --bc: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP SHORTHAND VARS
+  -----------------------------------*/
+
+  /// border top width
+  --btSmall: var(--bSmall);
+  --btLess: var(--bLess);
+  --btMedium: var(--bMedium);
+  --btMore: var(--bMore);
+  --btBig: var(--bBig);
+  
+  /// border top style
+  --btStyle: var(--bStyle);
+
+  /// border top color concise
+  --btColor: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER RIGHT SHORTHAND VARS
+  -----------------------------------*/
+
+  /// border right width
+  --brSmall: var(--bSmall);
+  --brLess: var(--bLess);
+  --brMedium: var(--bMedium);
+  --brMore: var(--bMore);
+  --brBig: var(--bBig);
+
+  /// border right style
+  --brStyle: var(--bStyle);
+
+  /// border right color concise
+  --brColor: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM SHORTHAND VARS
+  -----------------------------------*/
+
+  /// border bottom width
+  --bbSmall: var(--bSmall);
+  --bbLess: var(--bLess);
+  --bbMedium: var(--bMedium);
+  --bbMore: var(--bMore);
+  --bbBig: var(--bBig);
+
+  /// border bottom style
+  --bbStyle: var(--bStyle);
+
+  /// border bottom color concise
+  --bbColor: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER LEFT SHORTHAND VARS
+  -----------------------------------*/
+
+  /// border left width
+  --blSmall: var(--bSmall);
+  --blLess: var(--bLess);
+  --blMedium: var(--bMedium);
+  --blMore: var(--bMore);
+  --blBig: var(--bBig);
+
+  /// border left style
+  --blStyle: var(--bStyle);
+
+  /// border left color concise
+  --blColor: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP SHORTHAND CONCISE VARS
+  -----------------------------------*/
+
+  /// border top width concise (conjectures)
+  // --btS: var(--btSmall);
+  // --btL: var(--btLess);
+  // --btM: var(--btMedium);
+  // --btO: var(--btMore);
+  // --btB: var(--btBig);
+
+  /// border top style concise
+  --bts: var(--btStyle);
+
+  /// border top color concise
+  --btc: var(--btColor);
+
+
+  /*-----------------------------------
+  ---- BORDER RIGHT SHORTHAND CONCISE VARS
+  -----------------------------------*/
+
+  /// border right width concise (conjectures)
+  // --brS: var(--brSmall);
+  // --brL: var(--brLess);
+  // --brM: var(--brMedium);
+  // --brO: var(--brMore);
+  // --brB: var(--brBig);
+
+  /// border right style concise
+  --brs: var(--brStyle);
+
+  /// border right color concise
+  --brc: var(--brColor);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM SHORTHAND CONCISE VARS
+  -----------------------------------*/
+
+  /// border bottom width concise (conjectures)
+  // --bbS: var(--bbSmall);
+  // --bbL: var(--bbLess);
+  // --bbM: var(--bbMedium);
+  // --bbO: var(--bbMore);
+  // --bbB: var(--bbBig);
+
+  /// border bottom style concise
+  --bbs: var(--bbStyle);
+
+  /// border bottom color concise
+  --bbc: var(--bbColor);
+
+
+  /*-----------------------------------
+  ---- BORDER LEFT SHORTHAND CONCISE VARS
+  -----------------------------------*/
+
+  // /// border left width concise (conjectures)
+  // --blS: var(--blSmall);
+  // --blL: var(--blLess);
+  // --blM: var(--blMedium);
+  // --blO: var(--blMore);
+  // --blB: var(--blBig);
+
+  /// border left style concise
+  --bls: var(--blStyle);
+
+  /// border left color concise
+  --blc: var(--blColor);
 
 }

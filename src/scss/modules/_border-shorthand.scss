@@ -6,26 +6,214 @@
   border: none;
 }
 
-.b1, .bPrimary, .borderPrimary, .border-primary {
-  border: var(--bWidth) var(--bStyle) var(--cPrimary);
+.b1, .bSmall, .borderSmall, .border-small {
+  border: var(--bSmall) var(--bs) var(--bc);
 }
 
-.b2, .bSecondary, .borderSecondary, .border-secondary {
-  border: var(--bWidth) var(--bStyle) var(--cSecondary);
+.b2, .bLess, .borderLess, .border-less {
+  border: var(--bLess) var(--bs) var(--bc);
 }
 
-.b3, .bLight, .borderLight, .border-light {
-  border: var(--bWidth) var(--bStyle) var(--cLight);
+.b3, .bMedium, .borderMedium, .border-medium {
+  border: var(--bMedium) var(--bs) var(--bc);
 }
 
-.b4, .bDark, .borderDark, .border-dark {
-  border: var(--bWidth) var(--bStyle) var(--cDark);
+.b4, .bMore, .borderMore, .border-more {
+  border: var(--bMore) var(--bs) var(--bc);
 }
 
-.b5, .bEmphasis, .borderEmphasis, .border-emphasis {
-  border: var(--bWidth) var(--bStyle) var(--cEmphasis);
+.b5, .bBig, .borderBig, .border-big {
+  border: var(--bBig) var(--bs) var(--bc);
 }
 
 .bIni, .bInitial, .borderInitial, .border-initial {
   border: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER TOP SHORTHAND
+---------------------------------------------------------*/
+
+.bt0, .btNone, .borderTopNone, .border-top-none
+.bv0, .bvNone, .borderVerticalNone, .border-vertical-none /* BORDER VERTICAL (top) */
+{
+  border-top: none;
+}
+
+.bt1, .bTopSmall, .borderTopSmall, .border-top-small,
+.bv1, .bVerticalSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btSmall) var(--bts) var(--btc);
+}
+
+.bt2, .bTopLess, .borderTopLess, .border-top-less,
+.bv2, .bVerticalLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btLess) var(--bts) var(--btc);
+}
+
+.bt3, .bTopMedium, .borderTopMedium, .border-top-medium,
+.bv3, .bVerticalMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btMedium) var(--bts) var(--btc);
+}
+
+.bt4, .bTopMore, .borderTopMore, .border-top-more,
+.bv4, .bVerticalMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btMore) var(--bts) var(--btc);
+}
+
+.bt5, .bTopBig, .borderTopBig, .border-top-big,
+.bv5, .bVerticalBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btBig) var(--bts) var(--btc);
+}
+
+.btIni, .btInitial, .borderTopInitial, .border-top-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER VERTICAL (top) */
+{
+  border-top: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER RIGHT SHORTHAND
+---------------------------------------------------------*/
+
+.br0, .brNone, .borderRightNone, .border-right-none
+.bh0, .bhNone, .borderHorizontalNone, .border-horizontal-none /* BORDER HORIZONTAL (right) */
+{
+  border-right: none;
+}
+
+.br1, .bRightSmall, .borderRightSmall, .border-right-small,
+.bh1, .bHorizontalSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brSmall) var(--brs) var(--brc);
+}
+
+.br2, .bRightLess, .borderRightLess, .border-right-less,
+.bh2, .bHorizontalLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brLess) var(--brs) var(--brc);
+}
+
+.br3, .bRightMedium, .borderRightMedium, .border-right-medium,
+.bh3, .bHorizontalMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brMedium) var(--brs) var(--brc);
+}
+
+.br4, .bRightMore, .borderRightMore, .border-right-more,
+.bh4, .bHorizontalMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brMore) var(--brs) var(--brc);
+}
+
+.br5, .bRightBig, .borderRightBig, .border-right-big,
+.bh5, .bHorizontalBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brBig) var(--brs) var(--brc);
+}
+
+.brIni, .brInitial, .borderRightInitial, .border-right-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER HORIZONTAL (right) */
+{
+  border-right: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER BOTTOM SHORTHAND
+---------------------------------------------------------*/
+
+.bb0, .bbNone, .borderBottomNone, .border-bottom-none
+.bv0, .bvNone, .borderVerticalNone, .border-vertical-none /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: none;
+}
+
+.bb1, .bBottomSmall, .borderBottomSmall, .border-bottom-small,
+.bv1, .bVerticalSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbSmall) var(--bbs) var(--bbc);
+}
+
+.bb2, .bBottomLess, .borderBottomLess, .border-bottom-less,
+.bv2, .bVerticalLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbLess) var(--bbs) var(--bbc);
+}
+
+.bb3, .bBottomMedium, .borderBottomMedium, .border-bottom-medium,
+.bv3, .bVerticalMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbMedium) var(--bbs) var(--bbc);
+}
+
+.bb4, .bBottomMore, .borderBottomMore, .border-bottom-more,
+.bv4, .bVerticalMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbMore) var(--bbs) var(--bbc);
+}
+
+.bb5, .bBottomBig, .borderBottomBig, .border-bottom-big,
+.bv5, .bVerticalBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbBig) var(--bbs) var(--bbc);
+}
+
+.bbIni, .bbInitial, .borderBottomInitial, .border-bottom-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER LEFT SHORTHAND
+---------------------------------------------------------*/
+
+.bl0, .blNone, .borderLeftNone, .border-left-none
+.bh0, .bhNone, .borderHorizontalNone, .border-horizontal-none /* BORDER HORIZONTAL (left) */
+{
+  border-left: none;
+}
+
+.bl1, .bLeftSmall, .borderLeftSmall, .border-left-small,
+.bh1, .bHorizontalSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blSmall) var(--bls) var(--blc);
+}
+
+.bl2, .bLeftLess, .borderLeftLess, .border-left-less,
+.bh2, .bHorizontalLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blLess) var(--bls) var(--blc);
+}
+
+.bl3, .bLeftMedium, .borderLeftMedium, .border-left-medium,
+.bh3, .bHorizontalMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blMedium) var(--bls) var(--blc);
+}
+
+.bl4, .bLeftMore, .borderLeftMore, .border-left-more,
+.bh4, .bHorizontalMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blMore) var(--bls) var(--blc);
+}
+
+.bl5, .bLeftBig, .borderLeftBig, .border-left-big,
+.bh5, .bHorizontalBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blBig) var(--bls) var(--blc);
+}
+
+.blIni, .blInitial, .borderLeftInitial, .border-left-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER HORIZONTAL (left) */
+{
+  border-left: initial;
 }
