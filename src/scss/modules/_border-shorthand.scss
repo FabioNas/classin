@@ -41,32 +41,32 @@
   border-top: none;
 }
 
-.bt1, .bTopSmall, .borderTopSmall, .border-top-small,
-.bv1, .bVerticalSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (top) */
+.bt1, .btSmall, .borderTopSmall, .border-top-small,
+.bv1, .bvSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (top) */
 {
   border-top: var(--btSmall) var(--bts) var(--btc);
 }
 
-.bt2, .bTopLess, .borderTopLess, .border-top-less,
-.bv2, .bVerticalLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (top) */
+.bt2, .btLess, .borderTopLess, .border-top-less,
+.bv2, .bvLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (top) */
 {
   border-top: var(--btLess) var(--bts) var(--btc);
 }
 
-.bt3, .bTopMedium, .borderTopMedium, .border-top-medium,
-.bv3, .bVerticalMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (top) */
+.bt3, .btMedium, .borderTopMedium, .border-top-medium,
+.bv3, .bvMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (top) */
 {
   border-top: var(--btMedium) var(--bts) var(--btc);
 }
 
-.bt4, .bTopMore, .borderTopMore, .border-top-more,
-.bv4, .bVerticalMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (top) */
+.bt4, .btMore, .borderTopMore, .border-top-more,
+.bv4, .bvMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (top) */
 {
   border-top: var(--btMore) var(--bts) var(--btc);
 }
 
-.bt5, .bTopBig, .borderTopBig, .border-top-big,
-.bv5, .bVerticalBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (top) */
+.bt5, .btBig, .borderTopBig, .border-top-big,
+.bv5, .bvBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (top) */
 {
   border-top: var(--btBig) var(--bts) var(--btc);
 }
@@ -88,38 +88,38 @@
   border-right: none;
 }
 
-.br1, .bRightSmall, .borderRightSmall, .border-right-small,
-.bh1, .bHorizontalSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (right) */
+.br1, .brSmall, .borderRightSmall, .border-right-small,
+.bh1, .bhSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (right) */
 {
   border-right: var(--brSmall) var(--brs) var(--brc);
 }
 
-.br2, .bRightLess, .borderRightLess, .border-right-less,
-.bh2, .bHorizontalLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (right) */
+.br2, .brLess, .borderRightLess, .border-right-less,
+.bh2, .bhLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (right) */
 {
   border-right: var(--brLess) var(--brs) var(--brc);
 }
 
-.br3, .bRightMedium, .borderRightMedium, .border-right-medium,
-.bh3, .bHorizontalMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (right) */
+.br3, .brMedium, .borderRightMedium, .border-right-medium,
+.bh3, .bhMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (right) */
 {
   border-right: var(--brMedium) var(--brs) var(--brc);
 }
 
-.br4, .bRightMore, .borderRightMore, .border-right-more,
-.bh4, .bHorizontalMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (right) */
+.br4, .brMore, .borderRightMore, .border-right-more,
+.bh4, .bhMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (right) */
 {
   border-right: var(--brMore) var(--brs) var(--brc);
 }
 
-.br5, .bRightBig, .borderRightBig, .border-right-big,
-.bh5, .bHorizontalBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (right) */
+.br5, .brBig, .borderRightBig, .border-right-big,
+.bh5, .bhBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (right) */
 {
   border-right: var(--brBig) var(--brs) var(--brc);
 }
 
 .brIni, .brInitial, .borderRightInitial, .border-right-initial
-.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER HORIZONTAL (right) */
+.bhIni, .bhInitial, .borderHorizontalInitial, .border-horizontal-initial /* BORDER HORIZONTAL (right) */
 {
   border-right: initial;
 }
@@ -135,32 +135,32 @@
   border-bottom: none;
 }
 
-.bb1, .bBottomSmall, .borderBottomSmall, .border-bottom-small,
-.bv1, .bVerticalSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (bottom) */
+.bb1, .bbSmall, .borderBottomSmall, .border-bottom-small,
+.bv1, .bvSmall, .borderVerticalSmall, .border-vertical-small /* BORDER VERTICAL (bottom) */
 {
   border-bottom: var(--bbSmall) var(--bbs) var(--bbc);
 }
 
-.bb2, .bBottomLess, .borderBottomLess, .border-bottom-less,
-.bv2, .bVerticalLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (bottom) */
+.bb2, .bbLess, .borderBottomLess, .border-bottom-less,
+.bv2, .bvLess, .borderVerticalLess, .border-vertical-less /* BORDER VERTICAL (bottom) */
 {
   border-bottom: var(--bbLess) var(--bbs) var(--bbc);
 }
 
-.bb3, .bBottomMedium, .borderBottomMedium, .border-bottom-medium,
-.bv3, .bVerticalMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (bottom) */
+.bb3, .bbMedium, .borderBottomMedium, .border-bottom-medium,
+.bv3, .bvMedium, .borderVerticalMedium, .border-vertical-medium /* BORDER VERTICAL (bottom) */
 {
   border-bottom: var(--bbMedium) var(--bbs) var(--bbc);
 }
 
-.bb4, .bBottomMore, .borderBottomMore, .border-bottom-more,
-.bv4, .bVerticalMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (bottom) */
+.bb4, .bbMore, .borderBottomMore, .border-bottom-more,
+.bv4, .bvMore, .borderVerticalMore, .border-vertical-more /* BORDER VERTICAL (bottom) */
 {
   border-bottom: var(--bbMore) var(--bbs) var(--bbc);
 }
 
-.bb5, .bBottomBig, .borderBottomBig, .border-bottom-big,
-.bv5, .bVerticalBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (bottom) */
+.bb5, .bbBig, .borderBottomBig, .border-bottom-big,
+.bv5, .bvBig, .borderVerticalBig, .border-vertical-big /* BORDER VERTICAL (bottom) */
 {
   border-bottom: var(--bbBig) var(--bbs) var(--bbc);
 }
@@ -182,38 +182,38 @@
   border-left: none;
 }
 
-.bl1, .bLeftSmall, .borderLeftSmall, .border-left-small,
-.bh1, .bHorizontalSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (left) */
+.bl1, .blSmall, .borderLeftSmall, .border-left-small,
+.bh1, .bhSmall, .borderHorizontalSmall, .border-horizontal-small /* BORDER HORIZONTAL (left) */
 {
   border-left: var(--blSmall) var(--bls) var(--blc);
 }
 
-.bl2, .bLeftLess, .borderLeftLess, .border-left-less,
-.bh2, .bHorizontalLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (left) */
+.bl2, .blLess, .borderLeftLess, .border-left-less,
+.bh2, .bhLess, .borderHorizontalLess, .border-horizontal-less /* BORDER HORIZONTAL (left) */
 {
   border-left: var(--blLess) var(--bls) var(--blc);
 }
 
-.bl3, .bLeftMedium, .borderLeftMedium, .border-left-medium,
-.bh3, .bHorizontalMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (left) */
+.bl3, .blMedium, .borderLeftMedium, .border-left-medium,
+.bh3, .bhMedium, .borderHorizontalMedium, .border-horizontal-medium /* BORDER HORIZONTAL (left) */
 {
   border-left: var(--blMedium) var(--bls) var(--blc);
 }
 
-.bl4, .bLeftMore, .borderLeftMore, .border-left-more,
-.bh4, .bHorizontalMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (left) */
+.bl4, .blMore, .borderLeftMore, .border-left-more,
+.bh4, .bhMore, .borderHorizontalMore, .border-horizontal-more /* BORDER HORIZONTAL (left) */
 {
   border-left: var(--blMore) var(--bls) var(--blc);
 }
 
-.bl5, .bLeftBig, .borderLeftBig, .border-left-big,
-.bh5, .bHorizontalBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (left) */
+.bl5, .blBig, .borderLeftBig, .border-left-big,
+.bh5, .bhBig, .borderHorizontalBig, .border-horizontal-big /* BORDER HORIZONTAL (left) */
 {
   border-left: var(--blBig) var(--bls) var(--blc);
 }
 
 .blIni, .blInitial, .borderLeftInitial, .border-left-initial
-.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER HORIZONTAL (left) */
+.bhIni, .bhInitial, .borderHorizontalInitial, .border-horizontal-initial /* BORDER HORIZONTAL (left) */
 {
   border-left: initial;
 }
