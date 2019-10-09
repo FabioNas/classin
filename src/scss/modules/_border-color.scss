@@ -1,0 +1,219 @@
+/*---------------------------------------------------------
+---- BORDER COLOR
+---------------------------------------------------------*/
+
+.bc0, .bcNone, .borderColorNone, .border-color-none {
+  border-color: none;
+}
+
+.bc1, .bcPrimary, .borderColorPrimary, .border-color-primary {
+  border-color: var(--bcPrimary);
+}
+
+.bc2, .bcSecondary, .borderColorSecondary, .border-color-secondary {
+  border-color: var(--bcSecondary);
+}
+
+.bc3, .bcLight, .borderColorLight, .border-color-light {
+  border-color: var(--bcLight);
+}
+
+.bc4, .bcDark, .borderColorDark, .border-color-dark {
+  border-color: var(--bcDark);
+}
+
+.bc5, .bcEmphasis, .borderColorEmphasis, .border-color-emphasis {
+  border-color: var(--bcEmphasis);
+}
+
+.bcIni, .bcInitial, .borderColorInitial, .border-color-initial {
+  border-color: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER TOP COLOR
+---------------------------------------------------------*/
+
+.btc0, .btcNone, .borderTopColorNone, .border-top-color-none,
+.bvc0, .bvcNone, .borderVerticalColorNone, .border-vertical-color-none /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: none;
+}
+
+.btc1, .btcPrimary, .borderTopColorPrimary, .border-top-color-primary,
+.bvc1, .bvcPrimary, .borderVerticalColorPrimary, .border-vertical-color-primary /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: var(--btcPrimary);
+}
+
+.btc2, .btcSecondary, .borderTopColorSecondary, .border-top-color-secondary,
+.bvc2, .bvcSecondary, .borderVerticalColorSecondary, .border-vertical-color-secondary /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: var(--btcSecondary);
+}
+
+.btc3, .btcLight, .borderTopColorLight, .border-top-color-light,
+.bvc3, .bvcLight, .borderVerticalColorLight, .border-vertical-color-light /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: var(--btcLight);
+}
+
+.btc4, .btcDark, .borderTopColorDark, .border-top-color-dark,
+.bvc4, .bvcDark, .borderVerticalColorDark, .border-vertical-color-dark /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: var(--btcDark);
+}
+
+.btc5, .btcEmphasis, .borderTopColorEmphasis, .border-top-color-emphasis,
+.bvc5, .bvcEmphasis, .borderVerticalColorEmphasis, .border-vertical-color-emphasis /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: var(--btcEmphasis);
+}
+
+.btcIni, .btcInitial, .borderTopColorInitial, .border-top-color-initial,
+.bvcIni, .bvcInitial, .borderVerticalColorInitial, .border-vertical-color-initial /* BORDER VERTICAL COLOR (top) */
+{
+  border-top-color: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER RIGHT COLOR
+---------------------------------------------------------*/
+
+.brc0, .brcNone, .borderRightColorNone, .border-right-color-none,
+.bhc0, .bhcNone, .borderHorizontalColorNone, .border-horizontal-color-none /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: none;
+}
+
+.brc1, .brcPrimary, .borderRightColorPrimary, .border-right-color-primary,
+.bhc1, .bhcPrimary, .borderHorizontalColorPrimary, .border-horizontal-color-primary /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: var(--brcPrimary);
+}
+
+.brc2, .brcSecondary, .borderRightColorSecondary, .border-right-color-secondary,
+.bhc2, .bhcSecondary, .borderHorizontalColorSecondary, .border-horizontal-color-secondary /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: var(--brcSecondary);
+}
+
+.brc3, .brcLight, .borderRightColorLight, .border-right-color-light,
+.bhc3, .bhcLight, .borderHorizontalColorLight, .border-horizontal-color-light /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: var(--brcLight);
+}
+
+.brc4, .brcDark, .borderRightColorDark, .border-right-color-dark,
+.bhc4, .bhcDark, .borderHorizontalColorDark, .border-horizontal-color-dark /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: var(--brcDark);
+}
+
+.brc5, .brcEmphasis, .borderRightColorEmphasis, .border-right-color-emphasis,
+.bhc5, .bhcEmphasis, .borderHorizontalColorEmphasis, .border-horizontal-color-emphasis /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: var(--brcEmphasis);
+}
+
+.brcIni, .brcInitial, .borderRightColorInitial, .border-right-color-initial,
+.bhcIni, .bhcInitial, .borderHorizontalColorInitial, .border-horizontal-color-initial /* BORDER HORIZONTAL COLOR (right) */
+{
+  border-right-color: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER BOTTOM COLOR
+---------------------------------------------------------*/
+
+.bbc0, .bbcNone, .borderBottomColorNone, .border-bottom-color-none,
+.bvc0, .bvcNone, .borderVerticalColorNone, .border-vertical-color-none /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: none;
+}
+
+.bbc1, .bbcPrimary, .borderBottomColorPrimary, .border-bottom-color-primary,
+.bvc1, .bvcPrimary, .borderVerticalColorPrimary, .border-vertical-color-primary /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: var(--bbcPrimary);
+}
+
+.bbc2, .bbcSecondary, .borderBottomColorSecondary, .border-bottom-color-secondary,
+.bvc2, .bvcSecondary, .borderVerticalColorSecondary, .border-vertical-color-secondary /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: var(--bbcSecondary);
+}
+
+.bbc3, .bbcLight, .borderBottomColorLight, .border-bottom-color-light,
+.bvc3, .bvcLight, .borderVerticalColorLight, .border-vertical-color-light /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: var(--bbcLight);
+}
+
+.bbc4, .bbcDark, .borderBottomColorDark, .border-bottom-color-dark,
+.bvc4, .bvcDark, .borderVerticalColorDark, .border-vertical-color-dark /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: var(--bbcDark);
+}
+
+.bbc5, .bbcEmphasis, .borderBottomColorEmphasis, .border-bottom-color-emphasis,
+.bvc5, .bvcEmphasis, .borderVerticalColorEmphasis, .border-vertical-color-emphasis /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: var(--bbcEmphasis);
+}
+
+.bbcIni, .bbcInitial, .borderBottomColorInitial, .border-bottom-color-initial,
+.bvcIni, .bvcInitial, .borderVerticalColorInitial, .border-vertical-color-initial /* BORDER VERTICAL COLOR (bottom) */
+{
+  border-bottom-color: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER LEFT COLOR
+---------------------------------------------------------*/
+
+.blc0, .blcNone, .borderLeftColorNone, .border-left-color-none,
+.bhc0, .bhcNone, .borderHorizontalColorNone, .border-horizontal-color-none /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: none;
+}
+
+.blc1, .blcPrimary, .borderLeftColorPrimary, .border-left-color-primary,
+.bhc1, .bhcPrimary, .borderHorizontalColorPrimary, .border-horizontal-color-primary /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: var(--blcPrimary);
+}
+
+.blc2, .blcSecondary, .borderLeftColorSecondary, .border-left-color-secondary,
+.bhc2, .bhcSecondary, .borderHorizontalColorSecondary, .border-horizontal-color-secondary /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: var(--blcSecondary);
+}
+
+.blc3, .blcLight, .borderLeftColorLight, .border-left-color-light,
+.bhc3, .bhcLight, .borderHorizontalColorLight, .border-horizontal-color-light /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: var(--blcLight);
+}
+
+.blc4, .blcDark, .borderLeftColorDark, .border-left-color-dark,
+.bhc4, .bhcDark, .borderHorizontalColorDark, .border-horizontal-color-dark /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: var(--blcDark);
+}
+
+.blc5, .blcEmphasis, .borderLeftColorEmphasis, .border-left-color-emphasis,
+.bhc5, .bhcEmphasis, .borderHorizontalColorEmphasis, .border-horizontal-color-emphasis /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: var(--blcEmphasis);
+}
+
+.blcIni, .blcInitial, .borderLeftColorInitial, .border-left-color-initial,
+.bhcIni, .bhcInitial, .borderHorizontalColorInitial, .border-horizontal-color-initial /* BORDER HORIZONTAL COLOR (left) */
+{
+  border-left-color: initial;
+}
