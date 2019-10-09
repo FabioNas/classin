@@ -1,0 +1,303 @@
+/*---------------------------------------------------------
+---- BORDER STYLE
+---------------------------------------------------------*/
+
+.bs0, .bsNone, .borderStyleNone, .border-style-none {
+  border-style: none;
+}
+
+.bs1, .bsSolid, .borderStyleSolid, .border-style-solid {
+  border-style: var(--bsSolid);
+}
+
+.bs2, .bsDotted, .borderStyleDotted, .border-style-dotted {
+  border-style: var(--bsDotted);
+}
+
+.bs3, .bsDashed, .borderStyleDashed, .border-style-dashed {
+  border-style: var(--bsDashed);
+}
+
+.bs4, .bsDouble, .borderStyleDouble, .border-style-double {
+  border-style: var(--bsDouble);
+}
+
+.bs5, .bsGroove, .borderStyleGroove, .border-style-groove {
+  border-style: var(--bsGroove);
+}
+
+.bs6, .bsRidge, .borderStyleRidge, .border-style-ridge {
+  border-style: var(--bsRidge);
+}
+
+.bs7, .bsInset, .borderStyleInset, .border-style-inset {
+  border-style: var(--bsInset);
+}
+
+.bs8, .bsOutset, .borderStyleOutset, .border-style-outset {
+  border-style: var(--bsOutset);
+}
+
+.bIni, .bsInitial, .borderStyleInitial, .border-style-initial {
+  border-style: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER TOP STYLE
+---------------------------------------------------------*/
+
+.bts0, .btsNone, .borderTopStyleNone, .border-top-style-none,
+.bvs0, .bvsNone, .borderVerticalStyleNone, .border-vertical-style-none /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: none;
+}
+
+.bts1, .btsSolid, .borderTopStyleSolid, .border-top-style-solid,
+.bvs1, .bvsSolid, .borderVerticalStyleSolid, .border-vertical-style-solid /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsSolid);
+}
+
+.bts2, .btsDotted, .borderTopStyleDotted, .border-top-style-dotted,
+.bvs2, .bvsDotted, .borderVerticalStyleDotted, .border-vertical-style-dotted /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsDotted);
+}
+
+.bts3, .btsDashed, .borderTopStyleDashed, .border-top-style-dashed,
+.bvs3, .bvsDashed, .borderVerticalStyleDashed, .border-vertical-style-dashed /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsDashed);
+}
+
+.bts4, .btsDouble, .borderTopStyleDouble, .border-top-style-double,
+.bvs4, .bvsDouble, .borderVerticalStyleDouble, .border-vertical-style-double /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsDouble);
+}
+
+.bts5, .btsGroove, .borderTopStyleGroove, .border-top-style-groove,
+.bvs5, .bvsGroove, .borderVerticalStyleGroove, .border-vertical-style-groove /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsGroove);
+}
+
+.bts6, .btsRidge, .borderTopStyleRidge, .border-top-style-ridge,
+.bvs6, .bvsRidge, .borderVerticalStyleRidge, .border-vertical-style-ridge /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsRidge);
+}
+
+.bts7, .btsInset, .borderTopStyleInset, .border-top-style-inset,
+.bvs7, .bvsInset, .borderVerticalStyleInset, .border-vertical-style-inset /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsInset);
+}
+
+.bts8, .btsOutset, .borderTopStyleOutset, .border-top-style-outset,
+.bvs8, .bvsOutset, .borderVerticalStyleOutset, .border-vertical-style-outset /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: var(--btsOutset);
+}
+
+.btsIni, .btsInitial, .borderTopStyleInitial, .border-top-style-initial,
+.bvsIni, .bvsInitial, .borderVerticalStyleInitial, .border-vertical-style-initial /* BORDER VERTICAL STYLE (top) */
+{
+  border-top-style: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER RIGHT STYLE
+---------------------------------------------------------*/
+
+.brs0, .brsNone, .borderRightStyleNone, .border-right-style-none,
+.bhs0, .bhsNone, .borderHorizontalStyleNone, .border-horizontal-style-none /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: none;
+}
+
+.brs1, .brsSolid, .borderRightStyleSolid, .border-right-style-solid,
+.bhs1, .bhsSolid, .borderHorizontalStyleSolid, .border-horizontal-style-solid /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsSolid);
+}
+
+.brs2, .brsDotted, .borderRightStyleDotted, .border-right-style-dotted,
+.bhs2, .bhsDotted, .borderHorizontalStyleDotted, .border-horizontal-style-dotted /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsDotted);
+}
+
+.brs3, .brsDashed, .borderRightStyleDashed, .border-right-style-dashed,
+.bhs3, .bhsDashed, .borderHorizontalStyleDashed, .border-horizontal-style-dashed /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsDashed);
+}
+
+.brs4, .brsDouble, .borderRightStyleDouble, .border-right-style-double,
+.bhs4, .bhsDouble, .borderHorizontalStyleDouble, .border-horizontal-style-double /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsDouble);
+}
+
+.brs5, .brsGroove, .borderRightStyleGroove, .border-right-style-groove,
+.bhs5, .bhsGroove, .borderHorizontalStyleGroove, .border-horizontal-style-groove /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsGroove);
+}
+
+.brs6, .brsRidge, .borderRightStyleRidge, .border-right-style-ridge,
+.bhs6, .bhsRidge, .borderHorizontalStyleRidge, .border-horizontal-style-ridge /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsRidge);
+}
+
+.brs7, .brsInset, .borderRightStyleInset, .border-right-style-inset,
+.bhs7, .bhsInset, .borderHorizontalStyleInset, .border-horizontal-style-inset /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsInset);
+}
+
+.brs8, .brsOutset, .borderRightStyleOutset, .border-right-style-outset,
+.bhs8, .bhsOutset, .borderHorizontalStyleOutset, .border-horizontal-style-outset /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: var(--brsOutset);
+}
+
+.brsIni, .brsInitial, .borderRightStyleInitial, .border-right-style-initial,
+.bhsIni, .bhsInitial, .borderHorizontalStyleInitial, .border-horizontal-style-initial /* BORDER HORIZONTAL STYLE (right) */
+{
+  border-right-style: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER BOTTOM STYLE
+---------------------------------------------------------*/
+
+.bbs0, .bbsNone, .borderBottomStyleNone, .border-bottom-style-none,
+.bvs0, .bvsNone, .borderVerticalStyleNone, .border-vertical-style-none /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: none;
+}
+
+.bbs1, .bbsSolid, .borderBottomStyleSolid, .border-bottom-style-solid,
+.bvs1, .bvsSolid, .borderVerticalStyleSolid, .border-vertical-style-solid /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsSolid);
+}
+
+.bbs2, .bbsDotted, .borderBottomStyleDotted, .border-bottom-style-dotted,
+.bvs2, .bvsDotted, .borderVerticalStyleDotted, .border-vertical-style-dotted /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsDotted);
+}
+
+.bbs3, .bbsDashed, .borderBottomStyleDashed, .border-bottom-style-dashed,
+.bvs3, .bvsDashed, .borderVerticalStyleDashed, .border-vertical-style-dashed /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsDashed);
+}
+
+.bbs4, .bbsDouble, .borderBottomStyleDouble, .border-bottom-style-double,
+.bvs4, .bvsDouble, .borderVerticalStyleDouble, .border-vertical-style-double /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsDouble);
+}
+
+.bbs5, .bbsGroove, .borderBottomStyleGroove, .border-bottom-style-groove,
+.bvs5, .bvsGroove, .borderVerticalStyleGroove, .border-vertical-style-groove /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsGroove);
+}
+
+.bbs6, .bbsRidge, .borderBottomStyleRidge, .border-bottom-style-ridge,
+.bvs6, .bvsRidge, .borderVerticalStyleRidge, .border-vertical-style-ridge /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsRidge);
+}
+
+.bbs7, .bbsInset, .borderBottomStyleInset, .border-bottom-style-inset,
+.bvs7, .bvsInset, .borderVerticalStyleInset, .border-vertical-style-inset /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsInset);
+}
+
+.bbs8, .bbsOutset, .borderBottomStyleOutset, .border-bottom-style-outset,
+.bvs8, .bvsOutset, .borderVerticalStyleOutset, .border-vertical-style-outset /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: var(--bbsOutset);
+}
+
+.bbsIni, .bbsInitial, .borderBottomStyleInitial, .border-bottom-style-initial,
+.bvsIni, .bvsInitial, .borderVerticalStyleInitial, .border-vertical-style-initial /* BORDER VERTICAL STYLE (bottom) */
+{
+  border-bottom-style: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER LEFT STYLE
+---------------------------------------------------------*/
+
+.bls0, .blsNone, .borderLeftStyleNone, .border-left-style-none,
+.bhs0, .bhsNone, .borderHorizontalStyleNone, .border-horizontal-style-none /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: none;
+}
+
+.bls1, .blsSolid, .borderLeftStyleSolid, .border-left-style-solid,
+.bhs1, .bhsSolid, .borderHorizontalStyleSolid, .border-horizontal-style-primary /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsSolid);
+}
+
+.bls2, .blsDotted, .borderLeftStyleDotted, .border-left-style-dotted,
+.bhs2, .bhsDotted, .borderHorizontalStyleDotted, .border-horizontal-style-secondary /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsDotted);
+}
+
+.bls3, .blsDashed, .borderLeftStyleDashed, .border-left-style-dashed,
+.bhs3, .bhsDashed, .borderHorizontalStyleDashed, .border-horizontal-style-light /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsDashed);
+}
+
+.bls4, .blsDouble, .borderLeftStyleDouble, .border-left-style-double,
+.bhs4, .bhsDouble, .borderHorizontalStyleDouble, .border-horizontal-style-dark /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsDouble);
+}
+
+.bls5, .blsGroove, .borderLeftStyleGroove, .border-left-style-groove,
+.bhs5, .bhsGroove, .borderHorizontalStyleGroove, .border-horizontal-style-emphasis /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsGroove);
+}
+
+.bls6, .blsRidge, .borderLeftStyleRidge, .border-left-style-ridge,
+.bhs6, .bhsRidge, .borderHorizontalStyleRidge, .border-horizontal-style-emphasis /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsRidge);
+}
+
+.bls7, .blsInset, .borderLeftStyleInset, .border-left-style-inset,
+.bhs7, .bhsInset, .borderHorizontalStyleInset, .border-horizontal-style-emphasis /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsInset);
+}
+
+.bls8, .blsOutset, .borderLeftStyleOutset, .border-left-style-outset,
+.bhs8, .bhsOutset, .borderHorizontalStyleOutset, .border-horizontal-style-emphasis /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: var(--blsOutset);
+}
+
+.blsIni, .blsInitial, .borderLeftStyleInitial, .border-left-style-initial,
+.bhsIni, .bhsInitial, .borderHorizontalStyleInitial, .border-horizontal-style-initial /* BORDER HORIZONTAL STYLE (left) */
+{
+  border-left-style: initial;
+}
