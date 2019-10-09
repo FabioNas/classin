@@ -1,0 +1,68 @@
+:root {
+
+  /*-----------------------------------
+  ---- BORDER WIDTH VARS
+  -----------------------------------*/
+
+  --bwSmall: thin;
+  --bwLess: 2px;
+  --bwMedium: medium;
+  --bwMore: 4px;
+  --bwBig: thick;
+
+
+  /*-----------------------------------
+  ---- BORDER WIDTH CONCISE VARS
+  -----------------------------------*/
+
+  --bwS: var(--bwSmall);
+  --bwL: var(--bwLess);
+  --bwMd: var(--bwMedium);
+  --bwM: var(--bwMore);
+  --bwB: var(--bwBig);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP WIDTH VARS
+  -----------------------------------*/
+
+  --btwSmall: var(--bwS);
+  --btwLess: var(--bwL);
+  --btwMedium: var(--bwMd);
+  --btwMore: var(--bwM);
+  --btwBig: var(--bwB);
+  
+
+  /*-----------------------------------
+  ---- BORDER RIGHT WIDTH VARS
+  -----------------------------------*/
+
+  --brwSmall: var(--bwS);
+  --brwLess: var(--bwL);
+  --brwMedium: var(--bwMd);
+  --brwMore: var(--bwM);
+  --brwBig: var(--bwB);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM WIDTH VARS
+  -----------------------------------*/
+
+  --bbwSmall: var(--bwS);
+  --bbwLess: var(--bwL);
+  --bbwMedium: var(--bwMd);
+  --bbwMore: var(--bwM);
+  --bbwBig: var(--bwB);
+
+
+  /*-----------------------------------
+  ---- BORDER LEFT WIDTH VARS
+  -----------------------------------*/
+
+  --blwSmall: var(--bwS);
+  --blwLess: var(--bwL);
+  --blwMedium: var(--bwMd);
+  --blwMore: var(--bwM);
+  --blwBig: var(--bwB);
+
+}

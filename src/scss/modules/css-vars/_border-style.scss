@@ -1,0 +1,85 @@
+:root {
+
+  /*-----------------------------------
+  ---- BORDER STYLE VARS
+  -----------------------------------*/
+
+  --bsSolid: solid;
+  --bsDotted: dotted;
+  --bsDashed: dashed;
+  --bsDouble: double;
+  --bsGroove: groove;
+  --bsRidge: ridge;
+  --bsInset: inset;
+  --bsOutset: outset;
+
+
+  /*-----------------------------------
+  ---- BORDER STYLE CONCISE VARS
+  -----------------------------------*/
+
+  --bsSol: var(--bsSolid);
+  --bsDot: var(--bsDotted);
+  --bsDas: var(--bsDashed);
+  --bsDou: var(--bsDouble);
+  --bsGro: var(--bsGroove);
+  --bsRid: var(--bsRidge);
+  --bsIns: var(--bsInset);
+  --bsOut: var(--bsOutset);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP STYLE VARS
+  -----------------------------------*/
+
+  --btsSolid: var(--btsSol);
+  --btsDotted: var(--btsDot);
+  --btsDashed: var(--btsDas);
+  --btsDouble: var(--btsDou);
+  --btsGroove: var(--btsGro);
+  --btsRidge: var(--btsRid);
+  --btsInset: var(--btsIns);
+  --btsOutset: var(--btsOut);
+  
+
+  /*-----------------------------------
+  ---- BORDER RIGHT STYLE VARS
+  -----------------------------------*/
+
+  --brsSolid: var(--bsSol);
+  --brsDotted: var(--bsDot);
+  --brsDashed: var(--bsDas);
+  --brsDouble: var(--bsDou);
+  --brsGroove: var(--bsGro);
+  --brsRidge: var(--bsRid);
+  --brsInset: var(--bsIns);
+  --brsOutset: var(--bsOut);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM STYLE VARS
+  -----------------------------------*/
+
+  --bbsSolid: var(--bsSol);
+  --bbsDotted: var(--bsDot);
+  --bbsDashed: var(--bsDas);
+  --bbsDouble: var(--bsDou);
+  --bbsGroove: var(--bsGro);
+  --bbsRidge: var(--bsRid);
+  --bbsInset: var(--bsIns);
+  --bbsOutset: var(--bsOut);
+
+  /*-----------------------------------
+  ---- BORDER LEFT STYLE VARS
+  -----------------------------------*/
+
+  --blsSolid: var(--bsSol);
+  --blsDotted: var(--bsDot);
+  --blsDashed: var(--bsDas);
+  --blsDouble: var(--bsDou);
+  --blsGroove: var(--bsGro);
+  --blsRidge: var(--bsRid);
+  --blsInset: var(--bsIns);
+  --blsOutset: var(--bsOut);
+
+}

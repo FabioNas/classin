@@ -1,0 +1,67 @@
+:root {
+
+  /*-----------------------------------
+  ---- BORDER COLOR VARS
+  -----------------------------------*/
+
+  --bcPrimary: var(--cPrimary);
+  --bcSecondary: var(--cSecondary);
+  --bcLight: var(--cLight);
+  --bcDark: var(--cDark);
+  --bcEmphasis: var(--cEmphasis);
+
+
+  /*-----------------------------------
+  ---- BORDER COLOR CONCISE VARS
+  -----------------------------------*/
+
+  --bcP: var(--bcPrimary);
+  --bcS: var(--bcSecondary);
+  --bcL: var(--bcLight);
+  --bcD: var(--bcDark);
+  --bcE: var(--bcEmphasis);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP COLOR VARS
+  -----------------------------------*/
+
+  --btcPrimary: var(--bcP);
+  --btcSecondary: var(--bcS);
+  --btcLight: var(--bcL);
+  --btcDark: var(--bcD);
+  --btcEmphasis: var(--bcE);
+  
+
+  /*-----------------------------------
+  ---- BORDER RIGHT COLOR VARS
+  -----------------------------------*/
+
+  --brcPrimary: var(--bcP);
+  --brcSecondary: var(--bcS);
+  --brcLight: var(--bcL);
+  --brcDark: var(--bcD);
+  --brcEmphasis: var(--bcE);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM COLOR VARS
+  -----------------------------------*/
+
+  --bbcPrimary: var(--bcP);
+  --bbcSecondary: var(--bcS);
+  --bbcLight: var(--bcL);
+  --bbcDark: var(--bcD);
+  --bbcEmphasis: var(--bcE);
+
+  /*-----------------------------------
+  ---- BORDER LEFT COLOR VARS
+  -----------------------------------*/
+
+  --blcPrimary: var(--bcP);
+  --blcSecondary: var(--bcS);
+  --blcLight: var(--bcL);
+  --blcDark: var(--bcD);
+  --blcEmphasis: var(--bcE);
+
+}
