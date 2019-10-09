@@ -15,9 +15,6 @@
 @import "modules/css-vars/margin";
 @import "modules/margin";
 
-/// border shorthand
-@import "modules/css-vars/border-shorthand";
-@import "modules/border-shorthand-width";
-
-/// border width
-@import "modules/border-width";
+/// border
+@import "modules/css-vars/border";
+@import "modules/border";
