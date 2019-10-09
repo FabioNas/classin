@@ -1,0 +1,122 @@
+:root {
+
+  /*-----------------------------------
+  ---- BORDER VARS
+  -----------------------------------*/
+
+  /// border width
+  --bWidth: thin;
+
+  /// border style
+  --bStyle: solid;
+
+  /// border color
+  --bColor: var(--cEmphasis, black);
+
+
+  /// border width (concise)
+  --bw: var(--bWidth);
+
+  /// border style (concise)
+  --bs: var(--bStyle);
+
+  /// border color (concise)
+  --bc: var(--bColor);
+
+
+  /*-----------------------------------
+  ---- BORDER TOP VARS
+  -----------------------------------*/
+
+  /// border top width
+  --btWidth: var(--bw);
+
+  /// border top style
+  --btStyle: var(--bs);
+
+  /// border top color
+  --btColor: var(--bc);
+
+
+  /// border top width (concise)
+  --btw: var(--btWidth);
+
+  /// border top style (concise)
+  --bts: var(--btStyle);
+
+  /// border top color (concise)
+  --btc: var(--btColor);
+
+
+  /*-----------------------------------
+  ---- BORDER RIGHT VARS
+  -----------------------------------*/
+
+  /// border right width
+  --brWidth: var(--bw);
+
+  /// border right style
+  --brStyle: var(--bs);
+
+  /// border right color
+  --brColor: var(--bc);
+
+
+  /// border right width (concise)
+  --brw: var(--brWidth);
+
+  /// border right style (concise)
+  --brs: var(--brStyle);
+
+  /// border right color (concise)
+  --brc: var(--brColor);
+
+
+  /*-----------------------------------
+  ---- BORDER BOTTOM VARS
+  -----------------------------------*/
+
+  /// border bottom width
+  --bbWidth: var(--bw);
+
+  /// border bottom style
+  --bbStyle: var(--bs);
+
+  /// border bottom color
+  --bbColor: var(--bc);
+
+
+  /// border bottom width (concise)
+  --bbw: var(--bbWidth);
+
+  /// border bottom style (concise)
+  --bbs: var(--bbStyle);
+
+  /// border bottom color (concise)
+  --bbc: var(--bbColor);
+
+
+  /*-----------------------------------
+  ---- BORDER LEFT VARS
+  -----------------------------------*/
+
+  /// border left width
+  --blWidth: var(--bw);
+
+  /// border left style
+  --blStyle: var(--bs);
+
+  /// border left color
+  --blColor: var(--bc);
+
+
+  /// border left width (concise)
+  --blw: var(--blWidth);
+
+  /// border left style (concise)
+  --bls: var(--blStyle);
+
+  /// border left color (concise)
+  --blc: var(--blColor);
+
+}

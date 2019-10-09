@@ -1,0 +1,107 @@
+/*---------------------------------------------------------
+---- BORDER SHORTHAND BASE
+---------------------------------------------------------*/
+
+.b0, .bNone, .borderNone, .border-none {
+  border: none;
+}
+
+.b, .border {
+  border: var(--bw) var(--bs) var(--bc);
+}
+
+.bIni, .bInitial, .borderInitial, .border-initial {
+  border: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER TOP SHORTHAND BASE
+---------------------------------------------------------*/
+
+.bt0, .btNone, .borderTopNone, .border-top-none
+.bv0, .bvNone, .borderVerticalNone, .border-vertical-none /* BORDER VERTICAL (top) */
+{
+  border-top: none;
+}
+
+.bt, .bTop, .borderTop, .border-top,
+.bv, .borderVertical, .border-vertical /* BORDER VERTICAL (top) */
+{
+  border-top: var(--btw) var(--bts) var(--btc);
+}
+
+.btIni, .btInitial, .borderTopInitial, .border-top-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER VERTICAL (top) */
+{
+  border-top: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER RIGHT SHORTHAND BASE
+---------------------------------------------------------*/
+
+.br0, .brNone, .borderRightNone, .border-right-none
+.bh0, .bhNone, .borderHorizontalNone, .border-horizontal-none /* BORDER HORIZONTAL (right) */
+{
+  border-right: none;
+}
+
+.br, .bRight, .borderRight, .border-right,
+.bh, .bHorizontal, .borderHorizontal, .border-horizontal /* BORDER HORIZONTAL (right) */
+{
+  border-right: var(--brw) var(--brs) var(--brc);
+}
+
+.brIni, .brInitial, .borderRightInitial, .border-right-initial
+.bhIni, .bhInitial, .borderHorizontalInitial, .border-horizontal-initial /* BORDER HORIZONTAL (right) */
+{
+  border-right: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER BOTTOM SHORTHAND BASE
+---------------------------------------------------------*/
+
+.bb0, .bbNone, .borderBottomNone, .border-bottom-none
+.bv0, .bvNone, .borderVerticalNone, .border-vertical-none /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: none;
+}
+
+.bb, .bBottom, .borderBottom, .border-bottom,
+.bv, .bVertical, .borderVertical, .border-vertical /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: var(--bbw) var(--bbs) var(--bbc);
+}
+
+.bbIni, .bbInitial, .borderBottomInitial, .border-bottom-initial
+.bvIni, .bvInitial, .borderVerticalInitial, .border-vertical-initial /* BORDER VERTICAL (bottom) */
+{
+  border-bottom: initial;
+}
+
+
+/*---------------------------------------------------------
+---- BORDER LEFT SHORTHAND BASE
+---------------------------------------------------------*/
+
+.bl0, .blNone, .borderLeftNone, .border-left-none
+.bh0, .bhNone, .borderHorizontalNone, .border-horizontal-none /* BORDER HORIZONTAL (left) */
+{
+  border-left: none;
+}
+
+.bl, .bLeft, .borderLeft, .border-left,
+.bh, .bHorizontal, .borderHorizontal, .border-horizontal /* BORDER HORIZONTAL (left) */
+{
+  border-left: var(--blw) var(--bls) var(--blc);
+}
+
+.blIni, .blInitial, .borderLeftInitial, .border-left-initial
+.bhIni, .bhInitial, .borderHorizontalInitial, .border-horizontal-initial /* BORDER HORIZONTAL (left) */
+{
+  border-left: initial;
+}
